@@ -39,24 +39,7 @@ export default defineAppConfig({
   ] as { icon: string; url: string }[],
 
   navMenus: [
-    {
-      name: "Home",
-      url: "/",
-      subItems: [
-        { name: "Home 01", url: "/" },
-        { name: "Home 02", url: "/index-2" },
-        { name: "Home 03", url: "/index-3" },
-        {
-          name: "Header Styles",
-          url: "#",
-          subItems: [
-            { name: "Header 01", url: "/" },
-            { name: "Header 02", url: "/index-2" },
-            { name: "Header 03", url: "/index-3" },
-          ],
-        },
-      ],
-    },
+    { name: "Home", url: "/" },
     {
       name: "Pages",
       url: "/about",

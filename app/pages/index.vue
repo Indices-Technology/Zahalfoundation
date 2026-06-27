@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <SiteHeader />
     <MainSliderOne />
     <AboutTwo />
     <CausesCarousel />

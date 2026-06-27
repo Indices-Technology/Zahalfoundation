@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <SiteHeader />
     <PageHeader pageTitle="Causes Details" pageName="Causes" />
     <CausesSingle />
     <Footer />

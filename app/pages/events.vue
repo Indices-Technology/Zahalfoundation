@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <SiteHeader />
     <PageHeader pageTitle="Events" pageName="Events" />
     <EventsGrid />
     <Footer />
