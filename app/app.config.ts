@@ -1,6 +1,9 @@
 // Central Zahal Foundation brand/site configuration.
-// Edit values here (and theme colours in app/assets/css/theme.css) to rebrand the whole site.
-// Components read these via `useAppConfig()`.
+// Brand name, logo, contact and social are CMS-managed in /content/site.json (edited via /admin).
+// Theme colours live in app/assets/css/theme.css. Components read these via `useAppConfig()`.
+// The navigation menu below is intentionally NOT in the CMS (developer-managed).
+
+import site from "~~/content/site.json"
 
 export interface NavItem {
   name: string
@@ -10,33 +13,16 @@ export interface NavItem {
 
 export default defineAppConfig({
   site: {
-    // ZAHAL: confirm final brand wording
-    name: "Zahal Foundation",
-    tagline: "Helping Them Today",
-    description: "Zahal Foundation — supporting those in need.",
+    name: site.name,
+    tagline: site.tagline,
+    description: site.description,
   },
 
-  logo: {
-    // ZAHAL: replace with final logo files in public/images/resources
-    light: "/images/zahal_logo_white.jpg",
-    dark: "/images/resources/logo-3.png",
-    lightColored: "/images/resources/logo-2.png",
-  },
+  logo: site.logo,
 
-  contact: {
-    // ZAHAL: replace with real contact details
-    email: "needhelp@zahalfoundation.org",
-    phone: "92 666 888 0000",
-    address: "88 Broklyn Golden Street, USA",
-    welcomeText: "Welcome to the Zahal Foundation",
-  },
+  contact: site.contact,
 
-  social: [
-    { icon: "fab fa-twitter", url: "#" },
-    { icon: "fab fa-facebook-square", url: "#" },
-    { icon: "fab fa-dribbble", url: "#" },
-    { icon: "fab fa-instagram", url: "#" },
-  ] as { icon: string; url: string }[],
+  social: site.social as { icon: string; url: string }[],
 
   navMenus: [
     { name: "Home", url: "/" },

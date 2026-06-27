@@ -46,17 +46,23 @@ public/
 nuxt.config.ts
 ```
 
+## Content editing (CMS)
+
+Non-technical staff edit text and images via **Sveltia CMS** at **`/admin`** — see
+[CMS.md](CMS.md) for the staff guide and one-time GitHub/Vercel setup. Content is stored as JSON in
+[`content/`](content/); the app imports it (no database).
+
 ## Rebranding (where to edit)
 
-Everything Zahal-specific is centralised so you rarely touch components:
+Most Zahal-specific content is now CMS-managed; for the rest:
 
 | What | Where |
 | --- | --- |
-| Brand name, tagline, contact, social links, logo paths, nav menus | `app/app.config.ts` |
+| Brand name, contact, social, logo + listing content (causes/events/news/gallery/volunteers/testimonials/hero) | **CMS** → `/admin` (files in `content/`) |
+| Navigation menu | `app/app.config.ts` |
 | Brand colours & fonts | `app/assets/css/theme.css` (`--zahal-*` variables) |
-| Listing copy & imagery (causes, events, news, volunteers, gallery, testimonials) | `app/data/content.ts` |
 | Page `<title>` / meta description | `nuxt.config.ts` |
-| Logo / favicon files | `public/images/` and `public/favicon.ico` |
+| Favicon | `public/favicon.ico` |
 
 Spots that still hold demo copy/imagery to replace with final Zahal content are marked with
 `ZAHAL:` comments.

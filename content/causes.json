@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "thumbnail": "/images/resources/causes-page-img-1.jpg",
+      "title": "Raise Fund for Clean & Healthy Water",
+      "category": "Medical",
+      "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
+      "amount": { "raised": "21,270", "goal": "30,000" },
+      "url": "/causes-details"
+    },
+    {
+      "thumbnail": "/images/resources/causes-page-img-2.jpg",
+      "title": "Our donation is hope for poor childrens",
+      "category": "Medical",
+      "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
+      "amount": { "raised": "15,270", "goal": "30,000" },
+      "url": "/causes-details"
+    },
+    {
+      "thumbnail": "/images/resources/causes-page-img-3.jpg",
+      "title": "Education for Poor Children",
+      "category": "Medical",
+      "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
+      "amount": { "raised": "11,270", "goal": "30,000" },
+      "url": "/causes-details"
+    },
+    {
+      "thumbnail": "/images/resources/causes-page-img-4.jpg",
+      "title": "Promoting The Rights of Children",
+      "category": "Medical",
+      "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
+      "amount": { "raised": "19,270", "goal": "30,000" },
+      "url": "/causes-details"
+    },
+    {
+      "thumbnail": "/images/resources/causes-page-img-5.jpg",
+      "title": "Fundrising for Early Childhood Rise",
+      "category": "Medical",
+      "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
+      "amount": { "raised": "22,270", "goal": "30,000" },
+      "url": "/causes-details"
+    },
+    {
+      "thumbnail": "/images/resources/causes-page-img-6.jpg",
+      "title": "School Counseling for Children",
+      "category": "Medical",
+      "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
+      "amount": { "raised": "23,270", "goal": "30,000" },
+      "url": "/causes-details"
+    }
+  ]
+}

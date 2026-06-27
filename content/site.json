@@ -1,0 +1,22 @@
+{
+  "name": "Zahal Foundation",
+  "tagline": "Helping Them Today",
+  "description": "Zahal Foundation — supporting those in need.",
+  "logo": {
+    "light": "/images/zahal_logo_white.jpg",
+    "dark": "/images/resources/logo-3.png",
+    "lightColored": "/images/resources/logo-2.png"
+  },
+  "contact": {
+    "email": "needhelp@zahalfoundation.org",
+    "phone": "92 666 888 0000",
+    "address": "88 Broklyn Golden Street, USA",
+    "welcomeText": "Welcome to the Zahal Foundation"
+  },
+  "social": [
+    { "icon": "fab fa-twitter", "url": "#" },
+    { "icon": "fab fa-facebook-square", "url": "#" },
+    { "icon": "fab fa-dribbble", "url": "#" },
+    { "icon": "fab fa-instagram", "url": "#" }
+  ]
+}

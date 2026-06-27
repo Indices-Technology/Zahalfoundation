@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "thumbnail": "/images/team/team-page-img-1.jpg",
+      "title": "Janne",
+      "designation": "Volunteer",
+      "excerpt": "There are many of lorem ipsum available but the have in some form.",
+      "social": [
+        { "icon": "fab fa-twitter", "url": "#" },
+        { "icon": "fab fa-facebook-square", "url": "#" },
+        { "icon": "fab fa-dribbble", "url": "#" },
+        { "icon": "fab fa-instagram", "url": "#" }
+      ]
+    },
+    {
+      "thumbnail": "/images/team/team-page-img-2.jpg",
+      "title": "David",
+      "designation": "Volunteer",
+      "excerpt": "There are many of lorem ipsum available but the have in some form.",
+      "social": [
+        { "icon": "fab fa-twitter", "url": "#" },
+        { "icon": "fab fa-facebook-square", "url": "#" },
+        { "icon": "fab fa-dribbble", "url": "#" },
+        { "icon": "fab fa-instagram", "url": "#" }
+      ]
+    },
+    {
+      "thumbnail": "/images/team/team-page-img-3.jpg",
+      "title": "Sarah",
+      "designation": "Volunteer",
+      "excerpt": "There are many of lorem ipsum available but the have in some form.",
+      "social": [
+        { "icon": "fab fa-twitter", "url": "#" },
+        { "icon": "fab fa-facebook-square", "url": "#" },
+        { "icon": "fab fa-dribbble", "url": "#" },
+        { "icon": "fab fa-instagram", "url": "#" }
+      ]
+    },
+    {
+      "thumbnail": "/images/team/team-page-img-4.jpg",
+      "title": "Albert",
+      "designation": "Volunteer",
+      "excerpt": "There are many of lorem ipsum available but the have in some form.",
+      "social": [
+        { "icon": "fab fa-twitter", "url": "#" },
+        { "icon": "fab fa-facebook-square", "url": "#" },
+        { "icon": "fab fa-dribbble", "url": "#" },
+        { "icon": "fab fa-instagram", "url": "#" }
+      ]
+    },
+    {
+      "thumbnail": "/images/team/team-page-img-5.jpg",
+      "title": "Hallen",
+      "designation": "Volunteer",
+      "excerpt": "There are many of lorem ipsum available but the have in some form.",
+      "social": [
+        { "icon": "fab fa-twitter", "url": "#" },
+        { "icon": "fab fa-facebook-square", "url": "#" },
+        { "icon": "fab fa-dribbble", "url": "#" },
+        { "icon": "fab fa-instagram", "url": "#" }
+      ]
+    },
+    {
+      "thumbnail": "/images/team/team-page-img-6.jpg",
+      "title": "Pitter",
+      "designation": "Volunteer",
+      "excerpt": "There are many of lorem ipsum available but the have in some form.",
+      "social": [
+        { "icon": "fab fa-twitter", "url": "#" },
+        { "icon": "fab fa-facebook-square", "url": "#" },
+        { "icon": "fab fa-dribbble", "url": "#" },
+        { "icon": "fab fa-instagram", "url": "#" }
+      ]
+    }
+  ]
+}

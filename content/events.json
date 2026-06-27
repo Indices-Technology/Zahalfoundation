@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "thumbnail": "/images/resources/events-page-img-1.jpg",
+      "title": "Play for the world <br> with us",
+      "time": "8:00 pm",
+      "date": "20 <br> Jan",
+      "url": "/events-details"
+    },
+    {
+      "thumbnail": "/images/resources/events-page-img-2.jpg",
+      "title": "Mission for Fresh <br> &amp; Clean Water",
+      "time": "8:00 pm",
+      "date": "20 <br> Jan",
+      "url": "/events-details"
+    },
+    {
+      "thumbnail": "/images/resources/events-page-img-3.jpg",
+      "title": "Education for <br> poor children",
+      "time": "8:00 pm",
+      "date": "20 <br> Jan",
+      "url": "/events-details"
+    },
+    {
+      "thumbnail": "/images/resources/events-page-img-4.jpg",
+      "title": "Rights for <br> street childrens",
+      "time": "8:00 pm",
+      "date": "20 <br> Jan",
+      "url": "/events-details"
+    },
+    {
+      "thumbnail": "/images/resources/events-page-img-5.jpg",
+      "title": "Help for <br> needy people",
+      "time": "8:00 pm",
+      "date": "20 <br> Jan",
+      "url": "/events-details"
+    },
+    {
+      "thumbnail": "/images/resources/events-page-img-6.jpg",
+      "title": "Donation day <br> for people",
+      "time": "8:00 pm",
+      "date": "20 <br> Jan",
+      "url": "/events-details"
+    }
+  ]
+}

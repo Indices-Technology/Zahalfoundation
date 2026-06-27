@@ -1,7 +1,16 @@
-// Listing datasets migrated from the original data.json.
-// Brand/site/nav/contact now live in app/app.config.ts.
+// Listing data for the site.
+//
+// CMS-managed content lives in /content/*.json (edited via Sveltia CMS at /admin) and is
+// imported below. The remaining datasets are kept inline here (not exposed in the CMS for v1).
 // Image paths point at /images/** (served from public/images).
-// ZAHAL: replace copy and imagery below with real Zahal Foundation content.
+
+import homeData from "~~/content/home.json"
+import causesData from "~~/content/causes.json"
+import eventsData from "~~/content/events.json"
+import newsData from "~~/content/news.json"
+import volunteersData from "~~/content/volunteers.json"
+import galleryData from "~~/content/gallery.json"
+import testimonialsData from "~~/content/testimonials.json"
 
 export interface Slide {
   image: string
@@ -107,18 +116,17 @@ export interface BlogHome {
   posts: BlogPost[]
 }
 
-const social: SocialLink[] = [
-  { icon: "fab fa-twitter", url: "#" },
-  { icon: "fab fa-facebook-square", url: "#" },
-  { icon: "fab fa-dribbble", url: "#" },
-  { icon: "fab fa-instagram", url: "#" },
-]
+// --- CMS-managed (content/*.json) ---------------------------------------------
 
-export const sliderOne: Slide[] = [
-  { image: "/images/backgrounds/main-slider-1-1.jpg", subtitle: "Helping Them Today", title: "Help the Poor <br> in Need", buttonLabel: "Learn More", buttonUrl: "/about" },
-  { image: "/images/backgrounds/main-slider-2-1.jpg", subtitle: "Helping Them Today", title: "Help the Poor <br> in Need", buttonLabel: "Learn More", buttonUrl: "/about" },
-  { image: "/images/backgrounds/main-slider-3-1.jpg", subtitle: "Helping Them Today", title: "Help the Poor <br> in Need", buttonLabel: "Learn More", buttonUrl: "/about" },
-]
+export const sliderOne: Slide[] = homeData.hero
+export const causes: CauseItem[] = causesData.items
+export const events: EventItem[] = eventsData.items
+export const news: NewsItem[] = newsData.items
+export const volunteers: Volunteer[] = volunteersData.items
+export const gallery: GalleryItem[] = galleryData.items
+export const testimonials: Testimonial[] = testimonialsData.items
+
+// --- Inline (not in the CMS for v1) -------------------------------------------
 
 export const sliderTwo: Slide[] = [
   { image: "/images/backgrounds/main-slider-1-1.jpg", subtitle: "Help is Our Goal", title: "Give them a <br> Helping Hand", buttonLabel: "Learn More", buttonUrl: "/about" },
@@ -142,64 +150,10 @@ export const callToAction: CallToAction = {
   button: { label: "Learn More", url: "/contact" },
 }
 
-export const news: NewsItem[] = [
-  { title: "Donation is Hope for Poor Childrens in", author: "Admin", commentCount: "2", date: "20 Jan, 2021", thumbnail: "/images/blog/news-page-img-1.jpg", excerpt: "There are many variations of but the majority have simply free text available not suffered.", url: "/news-details" },
-  { title: "How Malnutrition Affect Children?", author: "Admin", commentCount: "2", date: "20 Jan, 2021", thumbnail: "/images/blog/news-page-img-2.jpg", excerpt: "There are many variations of but the majority have simply free text available not suffered.", url: "/news-details" },
-  { title: "Capitalize on low hanging to identify", author: "Admin", commentCount: "2", date: "20 Jan, 2021", thumbnail: "/images/blog/news-page-img-3.jpg", excerpt: "There are many variations of but the majority have simply free text available not suffered.", url: "/news-details" },
-  { title: "Override the digital divide with additional", author: "Admin", commentCount: "2", date: "20 Jan, 2021", thumbnail: "/images/blog/news-page-img-4.jpg", excerpt: "There are many variations of but the majority have simply free text available not suffered.", url: "/news-details" },
-  { title: "Nanotechnology immersion along the", author: "Admin", commentCount: "2", date: "20 Jan, 2021", thumbnail: "/images/blog/news-page-img-5.jpg", excerpt: "There are many variations of but the majority have simply free text available not suffered.", url: "/news-details" },
-  { title: "User generate in have multi time", author: "Admin", commentCount: "2", date: "20 Jan, 2021", thumbnail: "/images/blog/news-page-img-6.jpg", excerpt: "There are many variations of but the majority have simply free text available not suffered.", url: "/news-details" },
-]
-
-export const events: EventItem[] = [
-  { thumbnail: "/images/resources/events-page-img-1.jpg", title: "Play for the world <br> with us", time: "8:00 pm", date: "20 <br> Jan", url: "/events-details" },
-  { thumbnail: "/images/resources/events-page-img-2.jpg", title: "Mission for Fresh <br> &amp; Clean Water", time: "8:00 pm", date: "20 <br> Jan", url: "/events-details" },
-  { thumbnail: "/images/resources/events-page-img-3.jpg", title: "Education for <br> poor children", time: "8:00 pm", date: "20 <br> Jan", url: "/events-details" },
-  { thumbnail: "/images/resources/events-page-img-4.jpg", title: "Rights for <br> street childrens", time: "8:00 pm", date: "20 <br> Jan", url: "/events-details" },
-  { thumbnail: "/images/resources/events-page-img-5.jpg", title: "Help for <br> needy people", time: "8:00 pm", date: "20 <br> Jan", url: "/events-details" },
-  { thumbnail: "/images/resources/events-page-img-6.jpg", title: "Donation day <br> for people", time: "8:00 pm", date: "20 <br> Jan", url: "/events-details" },
-]
-
-export const causes: CauseItem[] = [
-  { thumbnail: "/images/resources/causes-page-img-1.jpg", title: "Raise Fund for Clean & Healthy Water", category: "Medical", excerpt: "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.", amount: { raised: "21,270", goal: "30,000" }, url: "/causes-details" },
-  { thumbnail: "/images/resources/causes-page-img-2.jpg", title: "Our donation is hope for poor childrens", category: "Medical", excerpt: "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.", amount: { raised: "15,270", goal: "30,000" }, url: "/causes-details" },
-  { thumbnail: "/images/resources/causes-page-img-3.jpg", title: "Education for Poor Children", category: "Medical", excerpt: "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.", amount: { raised: "11,270", goal: "30,000" }, url: "/causes-details" },
-  { thumbnail: "/images/resources/causes-page-img-4.jpg", title: "Promoting The Rights of Children", category: "Medical", excerpt: "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.", amount: { raised: "19,270", goal: "30,000" }, url: "/causes-details" },
-  { thumbnail: "/images/resources/causes-page-img-5.jpg", title: "Fundrising for Early Childhood Rise", category: "Medical", excerpt: "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.", amount: { raised: "22,270", goal: "30,000" }, url: "/causes-details" },
-  { thumbnail: "/images/resources/causes-page-img-6.jpg", title: "School Counseling for Children", category: "Medical", excerpt: "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.", amount: { raised: "23,270", goal: "30,000" }, url: "/causes-details" },
-]
-
-export const volunteers: Volunteer[] = [
-  { thumbnail: "/images/team/team-page-img-1.jpg", title: "Janne", designation: "Volunteer", excerpt: "There are many of lorem ipsum available but the have in some form.", social },
-  { thumbnail: "/images/team/team-page-img-2.jpg", title: "David", designation: "Volunteer", excerpt: "There are many of lorem ipsum available but the have in some form.", social },
-  { thumbnail: "/images/team/team-page-img-3.jpg", title: "Sarah", designation: "Volunteer", excerpt: "There are many of lorem ipsum available but the have in some form.", social },
-  { thumbnail: "/images/team/team-page-img-4.jpg", title: "Albert", designation: "Volunteer", excerpt: "There are many of lorem ipsum available but the have in some form.", social },
-  { thumbnail: "/images/team/team-page-img-5.jpg", title: "Hallen", designation: "Volunteer", excerpt: "There are many of lorem ipsum available but the have in some form.", social },
-  { thumbnail: "/images/team/team-page-img-6.jpg", title: "Pitter", designation: "Volunteer", excerpt: "There are many of lorem ipsum available but the have in some form.", social },
-]
-
-export const gallery: GalleryItem[] = [
-  { thumbnail: "/images/gallery/gallery-page-img-1.jpg", title: "Child Education", category: "Charity" },
-  { thumbnail: "/images/gallery/gallery-page-img-2.jpg", title: "Child Education", category: "Charity" },
-  { thumbnail: "/images/gallery/gallery-page-img-3.jpg", title: "Child Education", category: "Charity" },
-  { thumbnail: "/images/gallery/gallery-page-img-4.jpg", title: "Child Education", category: "Charity" },
-  { thumbnail: "/images/gallery/gallery-page-img-5.jpg", title: "Child Education", category: "Charity" },
-  { thumbnail: "/images/gallery/gallery-page-img-6.jpg", title: "Child Education", category: "Charity" },
-  { thumbnail: "/images/gallery/gallery-page-img-7.jpg", title: "Child Education", category: "Charity" },
-  { thumbnail: "/images/gallery/gallery-page-img-8.jpg", title: "Child Education", category: "Charity" },
-  { thumbnail: "/images/gallery/gallery-page-img-9.jpg", title: "Child Education", category: "Charity" },
-]
-
 export const sponsors: Sponsor[] = Array.from({ length: 9 }, () => ({
   thumbnail: "/images/resources/brand-1-3.png",
   url: "#",
 }))
-
-export const testimonials: Testimonial[] = [
-  { thumbnail: "/images/testimonial/testimonial-2-img-2.png", excerpt: "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", name: "Jessica Brown", designation: "Volunteer" },
-  { thumbnail: "/images/testimonial/testimonial-2-img-1.png", excerpt: "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", name: "Kevin Martin", designation: "Volunteer" },
-  { thumbnail: "/images/testimonial/testimonial-2-img-3.png", excerpt: "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", name: "Mike Hardson", designation: "Volunteer" },
-]
 
 export const features: Feature[] = [
   { title: "Healthy Food", text: "Lorem ipsum is simply free text available amet, consectetuer adipiscing elit. There are not many passages of ipsum.", icon: "icon-fast-food", url: "/causes-details", buttonLabel: "Donate" },

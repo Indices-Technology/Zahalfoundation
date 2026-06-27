@@ -17,7 +17,10 @@
       "Bash(grep -vE \"Failed to create plugin|at .*node_modules|at Array|at Object|at create|at perform|at execute|^\\\\s*$\")",
       "Bash(git -c core.safecrlf=false commit -q -m 'Migrate Halpes template to Nuxt 4 \\(Vue 3 + TS\\) and rebrand for Zahal Foundation *)",
       "Bash(node -e ' *)",
-      "Bash(git -c core.safecrlf=false commit -q -m 'Consolidate to a single site header \\(compact/Home-03 style\\) *)"
+      "Bash(git -c core.safecrlf=false commit -q -m 'Consolidate to a single site header \\(compact/Home-03 style\\) *)",
+      "Bash(npm run *)",
+      "Bash(grep -vE \"Failed to create plugin|Load plugin failed|at .*node_modules|at Array|at Object|at create|at perform|at execute|^\\\\s*$\")",
+      "Bash(git -c core.safecrlf=false commit -q -m 'Add Sveltia git-based CMS for non-technical content editing *)"
     ]
   }
 }
