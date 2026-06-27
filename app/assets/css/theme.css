@@ -1,0 +1,20 @@
+/*--------------------------------------------------------------
+# Zahal Foundation — Theme tokens (single source of brand colours)
+# Loaded before zahal.css; the template's --thm-* vars map onto these.
+# ZAHAL: set the final brand palette here.
+--------------------------------------------------------------*/
+:root {
+  /* Primary brand colour (seeded from the original template teal) */
+  --zahal-primary: #15c8a0;
+  --zahal-primary-rgb: 21, 200, 160;
+
+  /* Neutral / text colours */
+  --zahal-black: #1f2230;
+  --zahal-black-rgb: 31, 34, 48;
+  --zahal-gray: #707876;
+  --zahal-gray-rgb: 112, 120, 118;
+
+  /* Fonts */
+  --zahal-font: "Nunito", sans-serif;
+  --zahal-heading-font: "reeyregular";
+}

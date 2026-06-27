@@ -1,69 +1,62 @@
-# halpes-nuxt
+# Zahal Foundation
 
-## Build Setup
+Charity / donation website built with **Nuxt 4** (Vue 3 + TypeScript).
+Migrated from the "Halpes" Nuxt 2 template.
+
+## Stack
+
+- [Nuxt 4](https://nuxt.com) (Vue 3, Vite, Nitro)
+- TypeScript (`<script setup lang="ts">` throughout)
+- [Swiper 11](https://swiperjs.com) for all carousels (`AppCarousel.vue` wrapper)
+- [@vueuse/core](https://vueuse.org) for scroll-reveal / counters
+- Bootstrap 5 grid + the template's own CSS
+- jarallax (parallax), wow.js + animate.css (reveal animations), GLightbox (video), accordion-js (FAQ)
+
+## Setup
 
 ```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+npm install
+npm run dev        # dev server
+npm run build      # production build
+npm run preview    # preview the production build
+npm run typecheck  # vue-tsc type check
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## Project structure
 
-## Special Directories
+```
+app/
+  app.config.ts        # <- brand name, contact, social, logo paths, nav menus
+  app.vue
+  assets/
+    css/
+      theme.css        # <- Zahal brand colours (CSS variables, single source)
+      zahal.css        # template styles (consume the theme variables)
+      zahal-responsive.css
+    vendors/           # fontawesome, halpes-icons, reey-font, ...
+  components/          # all UI components (auto-imported)
+  composables/         # useUiState (drawer/search), useReveal (scroll reveal)
+  data/content.ts      # <- typed listing data (causes, events, news, gallery, ...)
+  layouts/default.vue
+  pages/               # routes (index, index-2, index-3, about, causes, ...)
+  plugins/             # jarallax / wow / ellipse-progress (client-only)
+public/
+  images/              # all imagery (served at /images/**)
+  favicon.ico
+nuxt.config.ts
+```
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+## Rebranding (where to edit)
 
-### `assets`
+Everything Zahal-specific is centralised so you rarely touch components:
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+| What | Where |
+| --- | --- |
+| Brand name, tagline, contact, social links, logo paths, nav menus | `app/app.config.ts` |
+| Brand colours & fonts | `app/assets/css/theme.css` (`--zahal-*` variables) |
+| Listing copy & imagery (causes, events, news, volunteers, gallery, testimonials) | `app/data/content.ts` |
+| Page `<title>` / meta description | `nuxt.config.ts` |
+| Logo / favicon files | `public/images/` and `public/favicon.ico` |
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+Spots that still hold demo copy/imagery to replace with final Zahal content are marked with
+`ZAHAL:` comments.

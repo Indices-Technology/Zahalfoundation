@@ -4,7 +4,18 @@
       "Bash(npm --version)",
       "Bash(git -C \"c:/Users/PRECISION 7530/source/repos/INDICES/zahal\" rev-parse --is-inside-work-tree)",
       "Bash(git init *)",
-      "Bash(git commit -q -m 'Snapshot original Halpes Nuxt 2 template before Nuxt 4 migration *)"
+      "Bash(git commit -q -m 'Snapshot original Halpes Nuxt 2 template before Nuxt 4 migration *)",
+      "Bash(mkdir -p app public)",
+      "Bash(git mv *)",
+      "Bash(mkdir -p app/assets)",
+      "Bash(rm -rf node_modules)",
+      "Bash(npm install *)",
+      "Bash(break)",
+      "Bash(curl -s \"http://localhost:3002/\")",
+      "Bash(curl -s \"http://localhost:3002/causes\")",
+      "Bash(curl -s \"http://localhost:3002/volunteers\")",
+      "Bash(grep -vE \"Failed to create plugin|at .*node_modules|at Array|at Object|at create|at perform|at execute|^\\\\s*$\")",
+      "Bash(git -c core.safecrlf=false commit -q -m 'Migrate Halpes template to Nuxt 4 \\(Vue 3 + TS\\) and rebrand for Zahal Foundation *)"
     ]
   }
 }
