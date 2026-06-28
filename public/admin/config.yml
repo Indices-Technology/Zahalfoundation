@@ -63,6 +63,23 @@ collections:
               - { name: title, label: Title (HTML allowed), widget: string }
               - { name: buttonLabel, label: Button label, widget: string }
               - { name: buttonUrl, label: Button link, widget: string }
+          - name: budget
+            label: Budget chart
+            widget: object
+            fields:
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Intro text, widget: text }
+              - name: segments
+                label: Segments
+                widget: list
+                summary: "{{fields.label}} ({{fields.value}}%)"
+                fields:
+                  - { name: label, label: Label, widget: string }
+                  - { name: value, label: Value (number), widget: number, value_type: int, min: 0 }
+                  - { name: color, label: Colour (hex), widget: string }
+                  - { name: icon, label: Icon class, widget: string }
+                  - { name: description, label: Description, widget: text }
 
   # --- Causes ---------------------------------------------------------------
   - name: causes

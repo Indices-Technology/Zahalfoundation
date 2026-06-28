@@ -116,9 +116,25 @@ export interface BlogHome {
   posts: BlogPost[]
 }
 
+export interface BudgetSegment {
+  label: string
+  value: number
+  color: string
+  icon: string
+  description: string
+}
+
+export interface Budget {
+  subtitle: string
+  title: string
+  text: string
+  segments: BudgetSegment[]
+}
+
 // --- CMS-managed (content/*.json) ---------------------------------------------
 
 export const sliderOne: Slide[] = homeData.hero
+export const budget: Budget = homeData.budget as Budget
 export const causes: CauseItem[] = causesData.items
 export const events: EventItem[] = eventsData.items
 export const news: NewsItem[] = newsData.items

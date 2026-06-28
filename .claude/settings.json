@@ -20,7 +20,13 @@
       "Bash(git -c core.safecrlf=false commit -q -m 'Consolidate to a single site header \\(compact/Home-03 style\\) *)",
       "Bash(npm run *)",
       "Bash(grep -vE \"Failed to create plugin|Load plugin failed|at .*node_modules|at Array|at Object|at create|at perform|at execute|^\\\\s*$\")",
-      "Bash(git -c core.safecrlf=false commit -q -m 'Add Sveltia git-based CMS for non-technical content editing *)"
+      "Bash(git -c core.safecrlf=false commit -q -m 'Add Sveltia git-based CMS for non-technical content editing *)",
+      "Bash(node -e 'const y=require\\(\"yaml\"\\);const d=y.parse\\(require\\(\"fs\"\\).readFileSync\\(\"public/admin/config.yml\",\"utf8\"\\)\\);console.log\\(\"OK, home fields:\", d.collections.find\\(c=>c.name===\"home\"\\).files[0].fields.map\\(f=>f.name\\).join\\(\", \"\\)\\)')",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:3002/)",
+      "Bash(echo \"homepage HTTP: $\\(curl -s -o /dev/null -w '%{http_code}' http://localhost:3002/\\)\")",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:3002/about)",
+      "Bash(echo \"about page: $\\(curl -s -o /dev/null -w '%{http_code}' http://localhost:3002/about\\)\")",
+      "Bash(git -c core.safecrlf=false commit -q -m 'Add homepage budget pie chart; fix logo, ellipse-progress SSR, and wow.js *)"
     ]
   }
 }

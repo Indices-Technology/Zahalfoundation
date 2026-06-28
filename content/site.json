@@ -4,8 +4,8 @@
   "description": "Zahal Foundation — supporting those in need.",
   "logo": {
     "light": "/images/zahal_logo_white.jpg",
-    "dark": "/images/resources/logo-3.png",
-    "lightColored": "/images/resources/logo-2.png"
+    "dark": "/images/zahal_logo_white.jpg",
+    "lightColored": "/images/zahal_logo_white.jpg"
   },
   "contact": {
     "email": "needhelp@zahalfoundation.org",

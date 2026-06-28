@@ -6,6 +6,7 @@
     <CausesCarousel />
     <CallToActionTwo className="" />
     <ThreeBoxes />
+    <BudgetChart />
     <ContactHome />
     <GalleryCarousel />
     <TestimonialsCarouselOne className="" />

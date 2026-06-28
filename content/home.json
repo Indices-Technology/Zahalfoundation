@@ -21,5 +21,16 @@
       "buttonLabel": "Learn More",
       "buttonUrl": "/about"
     }
-  ]
+  ],
+  "budget": {
+    "subtitle": "Our Budget",
+    "title": "Where your donation goes",
+    "text": "Every contribution is allocated transparently across our core programs.",
+    "segments": [
+      { "label": "Medical Aid", "value": 40, "color": "#15c8a0", "icon": "icon-health-check", "description": "Treatment, supplies and care for those in need." },
+      { "label": "Education", "value": 25, "color": "#1f8f76", "icon": "icon-college-graduation", "description": "Schools, materials and scholarships for children." },
+      { "label": "Clean Water", "value": 20, "color": "#ebad35", "icon": "icon-water", "description": "Wells, filters and safe drinking water projects." },
+      { "label": "Food & Relief", "value": 15, "color": "#ce5140", "icon": "icon-fast-food", "description": "Meals and emergency relief for families." }
+    ]
+  }
 }
