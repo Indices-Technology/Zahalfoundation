@@ -26,7 +26,7 @@
                 :stroke="arc.color"
                 stroke-width="34"
                 :stroke-dasharray="arc.dasharray"
-                :transform="`rotate(${arc.rotation} 100 100)`"
+                :stroke-dashoffset="arc.dashoffset"
               />
             </svg>
             <div class="budget-one__chart-center">
@@ -61,15 +61,18 @@ const segments = budget.segments
 const total = segments.reduce((sum, s) => sum + s.value, 0)
 const CIRCUMFERENCE = 2 * Math.PI * 80
 
-let angle = -90
+// Position each segment with stroke-dashoffset (no per-element SVG transform, which is a
+// read-only DOM prop and breaks hydration). The whole svg is rotated -90deg via CSS so the
+// chart starts at the top.
+let cumulative = 0
 const arcs = segments.map((seg) => {
-  const fraction = seg.value / total
+  const length = (seg.value / total) * CIRCUMFERENCE
   const arc = {
     color: seg.color,
-    dasharray: `${fraction * CIRCUMFERENCE} ${CIRCUMFERENCE}`,
-    rotation: angle,
+    dasharray: `${length} ${CIRCUMFERENCE}`,
+    dashoffset: -cumulative,
   }
-  angle += fraction * 360
+  cumulative += length
   return arc
 })
 
@@ -93,6 +96,7 @@ const percent = (value: number) => Math.round((value / total) * 100)
 .budget-one__chart svg {
   width: 100%;
   height: auto;
+  transform: rotate(-90deg);
 }
 .budget-one__chart circle[stroke-dasharray] {
   transition: stroke-width 0.3s ease;
