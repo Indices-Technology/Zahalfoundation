@@ -1,7 +1,7 @@
 backend:
   name: github
   # ZAHAL: set this to your GitHub repo once pushed, e.g. zahal-foundation/website
-  repo: OWNER/REPO
+  repo: indices-technology/zahalfoundation
   branch: main
 
 # Lets you run /admin against local files during development (run: npx decap-server)
