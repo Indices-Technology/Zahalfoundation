@@ -32,7 +32,8 @@
       "Bash(node -e 'const y=require\\(\"yaml\"\\);const d=y.parse\\(require\\(\"fs\"\\).readFileSync\\(\"public/admin/config.yml\",\"utf8\"\\)\\);console.log\\(\"config base_url:\", d.backend.base_url\\)')",
       "Bash(curl -s -i \"http://localhost:3002/auth?scope=repo,user\")",
       "Bash(curl -s -o /dev/null -w \"/callback -> %{http_code}\\\\n\" \"http://localhost:3002/callback?code=x&state=y\")",
-      "Bash(git -c core.safecrlf=false commit -q -m 'CMS auth on Vercel: self-hosted GitHub OAuth relay \\(no Netlify\\) *)"
+      "Bash(git -c core.safecrlf=false commit -q -m 'CMS auth on Vercel: self-hosted GitHub OAuth relay \\(no Netlify\\) *)",
+      "Bash(git -c core.safecrlf=false commit -q -m \"CMS: point backend at the deployed branch \\(dev-test\\) and canonical repo case\")"
     ]
   }
 }
