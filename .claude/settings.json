@@ -35,7 +35,16 @@
       "Bash(git -c core.safecrlf=false commit -q -m 'CMS auth on Vercel: self-hosted GitHub OAuth relay \\(no Netlify\\) *)",
       "Bash(git -c core.safecrlf=false commit -q -m \"CMS: point backend at the deployed branch \\(dev-test\\) and canonical repo case\")",
       "Bash(node -e 'const y=require\\(\"yaml\"\\);const d=y.parse\\(require\\(\"fs\"\\).readFileSync\\(\"public/admin/config.yml\",\"utf8\"\\)\\);console.log\\(\"home fields:\", d.collections.find\\(c=>c.name===\"home\"\\).files[0].fields.map\\(f=>f.name\\).join\\(\", \"\\)\\)')",
-      "Bash(git -c core.safecrlf=false commit -q -m 'Add inline video support with Plyr \\(nice player\\), CMS-editable *)"
+      "Bash(git -c core.safecrlf=false commit -q -m 'Add inline video support with Plyr \\(nice player\\), CMS-editable *)",
+      "Bash(PORT=3090 node .output/server/index.mjs)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:3090/)",
+      "Bash(echo \"server: $\\(curl -s -o /dev/null -w '%{http_code}' http://localhost:3090/\\)\")",
+      "Bash(TEST_URL=http://localhost:3090/ node _vtest.mjs)",
+      "Bash(PORT=3092 node .output/server/index.mjs)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:3092/)",
+      "Bash(echo \"server: $\\(curl -s -o /dev/null -w '%{http_code}' http://localhost:3092/\\)\")",
+      "Bash(TEST_URL=http://localhost:3092/ node _vtest.mjs)",
+      "Bash(git -c core.safecrlf=false commit -q -m 'Fix VideoPlayer: Plyr never initialised \\(ref was inside ClientOnly\\) *)"
     ]
   }
 }
