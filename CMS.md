@@ -24,10 +24,9 @@ Every change is saved in version history, so nothing is ever permanently lost.
 
 ### Logging in
 
-Editors sign in with a **GitHub account that has write access to the repo**. On the `/admin`
-login screen choose **"Sign in with Token"** — GitHub opens with the right permissions
-pre-selected; create the token, paste it back, and you're in (the token is remembered in your
-browser).
+Editors sign in with a **GitHub account that has write access to the repo**, using the
+**"Sign in with GitHub"** button on `/admin`. Authentication is handled by this app itself
+(no Netlify, no Cloudflare) — see the OAuth setup below.
 
 > Each editor needs their own GitHub account, added as a collaborator on the repo (one-time, done
 > by the admin below).
@@ -36,21 +35,29 @@ browser).
 
 ## One-time setup (admin / developer)
 
-1. **Push this repo to GitHub** (private is fine).
-2. In [`public/admin/config.yml`](public/admin/config.yml), set:
-   ```yaml
-   backend:
-     repo: OWNER/REPO   # e.g. zahal-foundation/website
-   ```
-3. **Deploy on Vercel**, linked to the GitHub repo (zero-config — it auto-detects Nuxt 4).
-4. **Add each staff editor** as a repo collaborator (GitHub → Settings → Collaborators), or put
-   them in a GitHub team with write access.
+1. **Push this repo to GitHub** and **deploy on Vercel** (zero-config — it auto-detects Nuxt 4).
+   The repo/branch are already set in [`public/admin/config.yml`](public/admin/config.yml)
+   (`indices-technology/zahalfoundation`, `main`).
 
-That's it — no OAuth app, no extra services. Editors use the token login above.
+2. **Create a GitHub OAuth App** — GitHub → Settings → Developer settings → OAuth Apps → *New*:
+   - **Homepage URL:** `https://zahalfoundation.vercel.app`
+   - **Authorization callback URL:** `https://zahalfoundation.vercel.app/callback`
+   - Copy the **Client ID** and generate a **Client Secret**.
 
-*(Optional upgrade later: a one-click "Sign in with GitHub" button instead of tokens, via
-[Sveltia's Cloudflare Worker](https://github.com/sveltia/sveltia-cms-auth) + `base_url` in
-config.yml.)*
+3. **Add the credentials to Vercel** (Project → Settings → Environment Variables):
+   - `NUXT_GITHUB_OAUTH_ID` = the Client ID
+   - `NUXT_GITHUB_OAUTH_SECRET` = the Client Secret
+   - Redeploy.
+
+4. **Add each staff editor** as a repo collaborator (GitHub → repo → Settings → Collaborators), or
+   put them in a GitHub team with write access.
+
+> Custom domain later? Update the OAuth App's two URLs **and** `base_url` in `config.yml` to the
+> new domain.
+
+**How sign-in works (no external service):** the CMS opens `…/auth`, which redirects to GitHub;
+GitHub returns to `…/callback`, which exchanges the code for a token and hands it back to the
+editor. Both routes live in [`server/routes/`](server/routes/) and run on Vercel as part of this app.
 
 ---
 

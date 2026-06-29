@@ -3,6 +3,13 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-01-01",
   devtools: { enabled: true },
 
+  // GitHub OAuth credentials for the CMS sign-in relay (server/routes/auth + callback).
+  // Set in Vercel as NUXT_GITHUB_OAUTH_ID / NUXT_GITHUB_OAUTH_SECRET.
+  runtimeConfig: {
+    githubOauthId: "",
+    githubOauthSecret: "",
+  },
+
   // Brand/site values live in app/app.config.ts; theme colours in app/assets/css/theme.css
 
   app: {

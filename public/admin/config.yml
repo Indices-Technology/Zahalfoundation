@@ -1,8 +1,10 @@
 backend:
   name: github
-  # ZAHAL: set this to your GitHub repo once pushed, e.g. zahal-foundation/website
   repo: indices-technology/zahalfoundation
   branch: main
+  # OAuth sign-in is handled by this app's own /auth + /callback routes (server/routes),
+  # so it works on Vercel without Netlify. Update if you move to a custom domain.
+  base_url: https://zahalfoundation.vercel.app
 
 # Lets you run /admin against local files during development (run: npx decap-server)
 local_backend: true
