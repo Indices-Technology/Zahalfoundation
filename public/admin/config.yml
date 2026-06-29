@@ -4,7 +4,7 @@ backend:
   branch: main
   # OAuth sign-in is handled by this app's own /auth + /callback routes (server/routes),
   # so it works on Vercel without Netlify. Update if you move to a custom domain.
-  base_url: https://zahalfoundation.vercel.app
+  base_url: https://zahalfoundation.org
 
 # Lets you run /admin against local files during development (run: npx decap-server)
 local_backend: true
