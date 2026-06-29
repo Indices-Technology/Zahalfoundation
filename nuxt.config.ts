@@ -46,6 +46,7 @@ export default defineNuxtConfig({
     "swiper/css/effect-fade",
     "glightbox/dist/css/glightbox.min.css",
     "accordion-js/dist/accordion.min.css",
+    "plyr/dist/plyr.css",
     "~/assets/vendors/fontawesome/css/all.min.css",
     "~/assets/vendors/halpes-icons/style.css",
     "~/assets/vendors/reey-font/stylesheet.css",

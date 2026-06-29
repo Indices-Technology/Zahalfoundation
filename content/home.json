@@ -32,5 +32,11 @@
       { "label": "Clean Water", "value": 20, "color": "#ebad35", "icon": "icon-water", "description": "Wells, filters and safe drinking water projects." },
       { "label": "Food & Relief", "value": 15, "color": "#ce5140", "icon": "icon-fast-food", "description": "Meals and emergency relief for families." }
     ]
+  },
+  "video": {
+    "subtitle": "Watch Our Story",
+    "title": "See the impact of your support",
+    "url": "https://www.youtube.com/watch?v=i9E_Blai8vk",
+    "poster": "/images/backgrounds/help-them-bg.jpg"
   }
 }

@@ -7,6 +7,7 @@
     <CallToActionTwo className="" />
     <ThreeBoxes />
     <BudgetChart />
+    <HomeVideo />
     <ContactHome />
     <GalleryCarousel />
     <TestimonialsCarouselOne className="" />

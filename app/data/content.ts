@@ -131,10 +131,18 @@ export interface Budget {
   segments: BudgetSegment[]
 }
 
+export interface VideoBlock {
+  subtitle: string
+  title: string
+  url: string
+  poster: string
+}
+
 // --- CMS-managed (content/*.json) ---------------------------------------------
 
 export const sliderOne: Slide[] = homeData.hero
 export const budget: Budget = homeData.budget as Budget
+export const homeVideo: VideoBlock = homeData.video as VideoBlock
 export const causes: CauseItem[] = causesData.items
 export const events: EventItem[] = eventsData.items
 export const news: NewsItem[] = newsData.items
