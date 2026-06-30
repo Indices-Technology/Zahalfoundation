@@ -104,4 +104,5 @@ onMounted(async () => {
     autoplayVideos: true,
   })
 })
+
 </script>
