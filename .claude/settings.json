@@ -51,7 +51,9 @@
       "Bash(PORT=3094 node .output/server/index.mjs)",
       "Bash(curl -s \"http://localhost:3094/callback?code=x&state=y\")",
       "Bash(powershell -Command 'Get-NetTCPConnection -LocalPort 3094 -State Listen -ErrorAction SilentlyContinue | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force }')",
-      "Bash(git -c core.safecrlf=false commit -q -m 'Fix CMS OAuth callback: match Sveltia postMessage handshake *)"
+      "Bash(git -c core.safecrlf=false commit -q -m 'Fix CMS OAuth callback: match Sveltia postMessage handshake *)",
+      "Bash(node -e 'const y=require\\(\"yaml\"\\);const d=y.parse\\(require\\(\"fs\"\\).readFileSync\\(\"public/admin/config.yml\",\"utf8\"\\)\\);console.log\\(\"YAML OK. local_backend present?\", \"local_backend\" in d, \"| collections:\", d.collections.length\\)')",
+      "Bash(git -c core.safecrlf=false commit -q -m \"CMS: remove Decap-only local_backend \\(unsupported by Sveltia, was logging a warning\\)\")"
     ]
   }
 }
