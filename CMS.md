@@ -63,19 +63,16 @@ editor. Both routes live in [`server/routes/`](server/routes/) and run on Vercel
 
 ## Testing the CMS locally (developer)
 
-`config.yml` has `local_backend: true`, so you can run the editor against local files — no GitHub
-needed:
+Sveltia CMS edits local files directly via the browser's File System Access API — no proxy or
+`local_backend` setting needed (that's a Decap-only option and Sveltia ignores it).
 
 ```bash
-# terminal 1 — local CMS proxy (reads/writes files in this repo)
-npx decap-server
-
-# terminal 2 — the site
 npm run dev
 ```
 
-Open `http://localhost:3000/admin/`, click **"Work with Local Repository"**, edit something, and
-you'll see the matching `content/*.json` file (and `public/images/uploads/`) change on disk.
+Open `http://localhost:3000/admin/` in a Chromium browser (Chrome/Edge/Brave), click **"Work with
+Local Repository"**, pick this project folder, and edits will write straight to `content/*.json`
+(and `public/images/uploads/`) on disk.
 
 ---
 

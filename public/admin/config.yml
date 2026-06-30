@@ -6,9 +6,6 @@ backend:
   # so it works on Vercel without Netlify. Update if you move to a custom domain.
   base_url: https://zahalfoundation.org
 
-# Lets you run /admin against local files during development (run: npx decap-server)
-local_backend: true
-
 # Uploaded images are committed to the repo and served from /images/uploads
 media_folder: public/images/uploads
 public_folder: /images/uploads
