@@ -44,7 +44,14 @@
       "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:3092/)",
       "Bash(echo \"server: $\\(curl -s -o /dev/null -w '%{http_code}' http://localhost:3092/\\)\")",
       "Bash(TEST_URL=http://localhost:3092/ node _vtest.mjs)",
-      "Bash(git -c core.safecrlf=false commit -q -m 'Fix VideoPlayer: Plyr never initialised \\(ref was inside ClientOnly\\) *)"
+      "Bash(git -c core.safecrlf=false commit -q -m 'Fix VideoPlayer: Plyr never initialised \\(ref was inside ClientOnly\\) *)",
+      "Bash(git rev-list *)",
+      "Bash(awk '{print \"behind remote: \"$1\"   ahead of remote \\(unpushed\\): \"$2}')",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(PORT=3094 node .output/server/index.mjs)",
+      "Bash(curl -s \"http://localhost:3094/callback?code=x&state=y\")",
+      "Bash(powershell -Command 'Get-NetTCPConnection -LocalPort 3094 -State Listen -ErrorAction SilentlyContinue | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force }')",
+      "Bash(git -c core.safecrlf=false commit -q -m 'Fix CMS OAuth callback: match Sveltia postMessage handshake *)"
     ]
   }
 }
