@@ -1,0 +1,74 @@
+{
+  "who": {
+    "subtitle": "Who We Are",
+    "title": "Empowering communities for a better future",
+    "lead": "Zahal Empowerment and Community Development Foundation is a not-for-profit, non-political organisation registered in Nigeria, based in Yola, Adamawa State.",
+    "body": "We implement programmes and fund community-led initiatives that improve health, education, livelihood and environmental sustainability — while promoting human rights and building partnerships that make lasting change possible for the people who need it most.",
+    "image": "/images/resources/about-page-img-1.jpg"
+  },
+  "objectives": {
+    "subtitle": "Our Aims & Objectives",
+    "title": "What we set out to do",
+    "items": [
+      {
+        "icon": "icon-health-check",
+        "title": "Health, Education & Livelihood",
+        "text": "Implement programmes and projects that improve health, education, livelihood and environmental sustainability."
+      },
+      {
+        "icon": "icon-donation-1",
+        "title": "Community-Led Initiatives",
+        "text": "Support and fund community-led initiatives that address local challenges."
+      },
+      {
+        "icon": "icon-charity",
+        "title": "Human Rights",
+        "text": "Promote human rights awareness and protection for all, especially vulnerable populations."
+      },
+      {
+        "icon": "icon-generous",
+        "title": "Partnerships",
+        "text": "Build partnerships with government, non-profits and the private sector for coordinated development efforts."
+      },
+      {
+        "icon": "icon-fundraiser",
+        "title": "Advocacy & Awareness",
+        "text": "Engage in advocacy and public awareness that foster inclusive and sustainable social development."
+      }
+    ]
+  },
+  "leadership": {
+    "subtitle": "Our Leadership",
+    "title": "Meet the team behind Zahal",
+    "members": [
+      {
+        "name": "Saadatu Sanusi",
+        "role": "Chairman / CEO",
+        "phone": "+234 803 909 2325",
+        "email": "barkindosaadatu@gmail.com",
+        "photo": "/images/team/ceo-saadatu-lamido.jpg"
+      },
+      {
+        "name": "Saadatu Njiddah",
+        "role": "Secretary / Trustee",
+        "phone": "+234 903 899 8015",
+        "email": "sadatusaad94@gmail.com",
+        "photo": "/images/team/saadatu-saad.jpg"
+      },
+      {
+        "name": "",
+        "role": "Communications Officer",
+        "phone": "",
+        "email": "",
+        "photo": "/images/team/communications-officer.jpg"
+      },
+      {
+        "name": "",
+        "role": "External Relations Officer",
+        "phone": "",
+        "email": "",
+        "photo": "/images/team/external-relations-officer.jpg"
+      }
+    ]
+  }
+}

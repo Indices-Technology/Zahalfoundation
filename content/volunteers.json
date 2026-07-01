@@ -2,73 +2,67 @@
   "items": [
     {
       "thumbnail": "/images/team/team-page-img-1.jpg",
-      "title": "Janne",
-      "designation": "Volunteer",
-      "excerpt": "There are many of lorem ipsum available but the have in some form.",
+      "title": "Field Volunteer",
+      "designation": "Water & Sanitation",
+      "excerpt": "Helps deliver clean-water projects and hygiene education in rural communities.",
       "social": [
         { "icon": "fab fa-twitter", "url": "#" },
         { "icon": "fab fa-facebook-square", "url": "#" },
-        { "icon": "fab fa-dribbble", "url": "#" },
         { "icon": "fab fa-instagram", "url": "#" }
       ]
     },
     {
       "thumbnail": "/images/team/team-page-img-2.jpg",
-      "title": "David",
-      "designation": "Volunteer",
-      "excerpt": "There are many of lorem ipsum available but the have in some form.",
+      "title": "Education Volunteer",
+      "designation": "Schools Programme",
+      "excerpt": "Supports back-to-school drives, tutoring and learning materials for children.",
       "social": [
         { "icon": "fab fa-twitter", "url": "#" },
         { "icon": "fab fa-facebook-square", "url": "#" },
-        { "icon": "fab fa-dribbble", "url": "#" },
         { "icon": "fab fa-instagram", "url": "#" }
       ]
     },
     {
       "thumbnail": "/images/team/team-page-img-3.jpg",
-      "title": "Sarah",
-      "designation": "Volunteer",
-      "excerpt": "There are many of lorem ipsum available but the have in some form.",
+      "title": "Health Volunteer",
+      "designation": "Medical Outreach",
+      "excerpt": "Assists at free medical outreaches and maternal-care sessions in remote areas.",
       "social": [
         { "icon": "fab fa-twitter", "url": "#" },
         { "icon": "fab fa-facebook-square", "url": "#" },
-        { "icon": "fab fa-dribbble", "url": "#" },
         { "icon": "fab fa-instagram", "url": "#" }
       ]
     },
     {
       "thumbnail": "/images/team/team-page-img-4.jpg",
-      "title": "Albert",
-      "designation": "Volunteer",
-      "excerpt": "There are many of lorem ipsum available but the have in some form.",
+      "title": "Livelihood Volunteer",
+      "designation": "Skills Training",
+      "excerpt": "Mentors youth and women through vocational and small-business training.",
       "social": [
         { "icon": "fab fa-twitter", "url": "#" },
         { "icon": "fab fa-facebook-square", "url": "#" },
-        { "icon": "fab fa-dribbble", "url": "#" },
         { "icon": "fab fa-instagram", "url": "#" }
       ]
     },
     {
       "thumbnail": "/images/team/team-page-img-5.jpg",
-      "title": "Hallen",
-      "designation": "Volunteer",
-      "excerpt": "There are many of lorem ipsum available but the have in some form.",
+      "title": "Advocacy Volunteer",
+      "designation": "Human Rights",
+      "excerpt": "Runs awareness campaigns that protect and empower vulnerable populations.",
       "social": [
         { "icon": "fab fa-twitter", "url": "#" },
         { "icon": "fab fa-facebook-square", "url": "#" },
-        { "icon": "fab fa-dribbble", "url": "#" },
         { "icon": "fab fa-instagram", "url": "#" }
       ]
     },
     {
       "thumbnail": "/images/team/team-page-img-6.jpg",
-      "title": "Pitter",
-      "designation": "Volunteer",
-      "excerpt": "There are many of lorem ipsum available but the have in some form.",
+      "title": "Environment Volunteer",
+      "designation": "Green Initiatives",
+      "excerpt": "Leads tree-planting and community clean-up drives for a healthier environment.",
       "social": [
         { "icon": "fab fa-twitter", "url": "#" },
         { "icon": "fab fa-facebook-square", "url": "#" },
-        { "icon": "fab fa-dribbble", "url": "#" },
         { "icon": "fab fa-instagram", "url": "#" }
       ]
     }

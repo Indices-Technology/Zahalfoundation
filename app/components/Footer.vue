@@ -13,8 +13,9 @@
               <div class="footer-widget__column footer-widget__about">
                 <h3 class="footer-widget__title">About</h3>
                 <p class="footer-widget__text">
-                  Lorem ipsum dolor sit ame consect etur pisicing elit sed do
-                  eiusmod tempor incididunt ut labore.
+                  {{ site.fullName }} is a not-for-profit improving health,
+                  education, livelihood and environmental sustainability across
+                  Nigeria.
                 </p>
                 <a href="#" class="footer-widget__about-btn"
                   ><i class="fa fa-heart"></i>Donate
@@ -84,7 +85,7 @@
               <div class="footer-widget__column footer-widget__newsletter">
                 <h3 class="footer-widget__title">Newsletter</h3>
                 <p class="footer-widget__newsletter-text">
-                  Lorem ipsum dolor sit ame consect etur pisicing elit sed do.
+                  Subscribe for updates on our projects, events and impact.
                 </p>
                 <form class="footer-widget__newsletter-form" @submit.prevent>
                   <input
@@ -115,7 +116,10 @@
                   </div>
                 </div>
                 <div class="site-footer__bottom-copy-right">
-                  <p>© Copyright {{ year }} by <a href="#">{{ site.name }}</a></p>
+                  <p>© Copyright {{ year }} {{ site.name }}</p>
+                  <p class="site-footer__reg">
+                    Registered in Nigeria · CAC No. {{ legal.regNumber }} · TIN {{ legal.tin }}
+                  </p>
                 </div>
               </div>
             </div>
@@ -135,7 +139,7 @@
 </template>
 
 <script setup lang="ts">
-const { logo, social, contact, site } = useAppConfig()
+const { logo, social, contact, site, legal } = useAppConfig()
 const year = new Date().getFullYear()
 
 const sticky = ref(false)
@@ -147,3 +151,11 @@ const scrollTop = () => window.scrollTo(0, 0)
 onMounted(() => window.addEventListener("scroll", handleScroll))
 onBeforeUnmount(() => window.removeEventListener("scroll", handleScroll))
 </script>
+
+<style scoped>
+.site-footer__reg {
+  margin-top: 4px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+</style>

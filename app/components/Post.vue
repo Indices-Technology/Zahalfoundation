@@ -14,39 +14,25 @@
         </li>
       </ul>
       <h3 class="news-details__title">
-        Donation is Hope for Poor Childrens in Africa
+        Clean water reaches three rural communities
       </h3>
       <p class="news-details__text-one">
-        Tliq is notm hendr erit a augue insu image pellen tes que id erat quis
-        sollicitud. Lorem ipsum dolor sit amet, consectetur adipiscing ullam
-        blandit hendrerit faucibus suspendisse. There are many variations of
-        passages of Lorem Ipsum available, but the majority have suffered
-        alteration in some form, by injected humour, or randomised words which
-        don't look even slightly believable. If you are going to use a passage
-        of Lorem Ipsum, you need to be sure there isn't anything embarrassing
-        hidden in the middle of text.
+        With the support of our donors and volunteers, Zahal Empowerment and
+        Community Development Foundation recently commissioned new boreholes and
+        safe water points serving three underserved communities. Hundreds of
+        families who once walked for hours now have clean, healthy water close
+        to home.
       </p>
       <p class="news-details__text-two">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum ley of type and scrambled it to make a type specimen
-        book.
+        Access to safe water changes everything — it means fewer waterborne
+        illnesses, more time for children to be in school, and greater dignity
+        for entire families. Our teams worked hand in hand with local leaders to
+        make sure each site is maintained by the community itself.
       </p>
       <p class="news-details__text-three">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including version.
+        This is just one of the programmes made possible by people like you.
+        Together we are building healthier, more resilient communities — one
+        project at a time. Thank you for standing with us.
       </p>
     </div>
     <div class="news-details__bottom">

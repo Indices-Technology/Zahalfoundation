@@ -2,12 +2,10 @@
   <div>
     <SiteHeader />
     <PageHeader pageTitle="About Us" pageName="About" />
-    <AboutOne />
-    <TestimonialsCarouselOne className="about-page-testimonial" />
+    <AboutIntro />
+    <ObjectivesSection />
+    <LeadershipSection />
     <CallToActionTwo className="join-one__about" />
-    <FunfactOne />
-    <VolunteerAbout />
-    <SponsorsOne />
     <Footer />
     <SearchPopup />
     <MobileDrawer />

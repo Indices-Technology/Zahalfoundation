@@ -24,43 +24,29 @@
             <div class="event-details__top-content">
               <h2 class="event-details__title">Play for the world with us</h2>
               <p class="event-details__text-1">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable. If you are going to use a passage of Lorem
-                Ipsum, you need to be sure there isn't anything embarrassing
-                hidden in the middle of text.
+                Join us for a community event in support of our mission to
+                improve health, education, livelihood and environmental
+                sustainability. It's a chance to come together, give back and
+                make a tangible difference for families in need.
               </p>
               <p class="event-details__text-2">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum ley of type and scrambled it to make a type specimen
-                book.
+                Whether you volunteer, donate or simply spread the word, your
+                participation helps us reach further and do more. Every event
+                brings us closer to stronger, more resilient communities — and
+                every hand makes the work lighter and the impact greater.
               </p>
             </div>
             <div class="event-details__bottom-content">
               <h3 class="event-details__bottom-title">Event Requirements</h3>
               <p class="event-details__bottom-text-1">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+                Everyone is welcome. Come as a volunteer, a donor or a supporter
+                — no contribution is too small. Registration helps us plan and
+                make sure the day runs smoothly for everyone involved.
               </p>
               <p class="event-details__bottom-text-2">
-                It was popularised in the 1960s with the release of Letraset
-                sheets containing Lorem Ipsum passages, and more recently with
-                desktop publishing software like Aldus PageMaker including
-                versions of Lorem Ipsum ley of type and scrambled it to make a
-                type specimen book.
+                Bring your family and friends, and be part of a growing movement
+                of people committed to lasting, community-led change across
+                Nigeria.
               </p>
               <a href="#" class="event-details__bottom-content-btn thm-btn"
                 ><i class="fas fa-arrow-circle-right"></i>Register Now</a

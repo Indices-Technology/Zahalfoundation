@@ -2,20 +2,20 @@
   "items": [
     {
       "thumbnail": "/images/testimonial/testimonial-2-img-2.png",
-      "excerpt": "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "name": "Jessica Brown",
-      "designation": "Volunteer"
+      "excerpt": "Before the borehole, we walked hours for water that still made our children sick. Zahal changed that for our whole community.",
+      "name": "Amina I.",
+      "designation": "Community Member"
     },
     {
       "thumbnail": "/images/testimonial/testimonial-2-img-1.png",
-      "excerpt": "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "name": "Kevin Martin",
-      "designation": "Volunteer"
+      "excerpt": "The skills training gave me the confidence and the tools to start my own small business and support my family.",
+      "name": "Yusuf B.",
+      "designation": "Programme Beneficiary"
     },
     {
       "thumbnail": "/images/testimonial/testimonial-2-img-3.png",
-      "excerpt": "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "name": "Mike Hardson",
+      "excerpt": "Volunteering with Zahal, I've seen first-hand how much a little support means to families who have so little.",
+      "name": "Grace A.",
       "designation": "Volunteer"
     }
   ]

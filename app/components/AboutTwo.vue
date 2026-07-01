@@ -20,27 +20,28 @@
         <div class="col-xl-6 col-lg-6">
           <div class="welcome-one__right">
             <div class="section-title text-left">
-              <span class="section-title__tagline">Welcome to Charity</span>
+              <span class="section-title__tagline">Welcome to Zahal</span>
               <h2 class="section-title__title">
-                Helping each other can make world better
+                Helping each other can make the world better
               </h2>
             </div>
             <p class="welcome-one__right-text">
-              Lorem ipsum dolor sit amet, consectetur notted adipisicing elit
-              sed do eiusmod tempor incididunt ut labore et simply free text
-              dolore magna aliqua lonm andhn.
+              Zahal Empowerment and Community Development Foundation works
+              alongside communities across Nigeria to improve health,
+              education, livelihood and environmental sustainability.
             </p>
             <div class="welcome-one__our-mission-and-story">
               <div class="welcome-one__mission-and-story-single">
                 <h3><i class="fas fa-arrow-circle-right"></i>Our Mission</h3>
                 <p class="welcome-one__our-mission-and-story-text">
-                  Lorem ipsum dolor sit amet not is consectetur notted.
+                  To empower vulnerable communities through sustainable,
+                  community-led development.
                 </p>
               </div>
               <div class="welcome-one__mission-and-story-single">
-                <h3><i class="fas fa-arrow-circle-right"></i>Our Story</h3>
+                <h3><i class="fas fa-arrow-circle-right"></i>Our Vision</h3>
                 <p class="welcome-one__our-mission-and-story-text">
-                  Lorem ipsum dolor sit amet not is consectetur notted.
+                  Inclusive, resilient communities where everyone can thrive.
                 </p>
               </div>
             </div>

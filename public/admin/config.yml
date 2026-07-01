@@ -19,9 +19,16 @@ collections:
         label: Brand & Contact
         file: content/site.json
         fields:
-          - { name: name, label: Site name, widget: string }
+          - { name: name, label: Site name (short, for header), widget: string }
+          - { name: fullName, label: Full legal name, widget: string }
           - { name: tagline, label: Tagline, widget: string }
           - { name: description, label: Meta description, widget: text }
+          - name: legal
+            label: Registration
+            widget: object
+            fields:
+              - { name: regNumber, label: CAC registration number, widget: string }
+              - { name: tin, label: TIN, widget: string }
           - name: logo
             label: Logo
             widget: object
@@ -87,6 +94,54 @@ collections:
               - { name: title, label: Title, widget: string }
               - { name: url, label: "Video URL (YouTube/Vimeo link or .mp4 path)", widget: string }
               - { name: poster, label: Poster image, widget: image, required: false }
+
+  # --- About page -----------------------------------------------------------
+  - name: about
+    label: About
+    files:
+      - name: about
+        label: About content
+        file: content/about.json
+        fields:
+          - name: who
+            label: Who We Are
+            widget: object
+            fields:
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: title, label: Title, widget: string }
+              - { name: lead, label: Lead paragraph, widget: text }
+              - { name: body, label: Body, widget: text }
+              - { name: image, label: Image, widget: image }
+          - name: objectives
+            label: Aims & Objectives
+            widget: object
+            fields:
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: title, label: Title, widget: string }
+              - name: items
+                label: Objectives
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { name: icon, label: Icon class, widget: string }
+                  - { name: title, label: Title, widget: string }
+                  - { name: text, label: Text, widget: text }
+          - name: leadership
+            label: Leadership
+            widget: object
+            fields:
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: title, label: Title, widget: string }
+              - name: members
+                label: Trustees / Team
+                widget: list
+                summary: "{{fields.name}}"
+                fields:
+                  - { name: photo, label: Photo, widget: image }
+                  - { name: name, label: Name, widget: string }
+                  - { name: role, label: Role, widget: string }
+                  - { name: phone, label: Phone, widget: string }
+                  - { name: email, label: Email, widget: string }
 
   # --- Causes ---------------------------------------------------------------
   - name: causes

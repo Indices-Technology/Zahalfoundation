@@ -16,9 +16,9 @@
               <img src="/images/resources/contact-page-img-1.jpg" alt="" />
             </div>
             <p class="contact-page__text">
-              There are many variations of passages of available but the
-              majority have suffered alteration in some form, by injected humou
-              or randomised words even slightly believable.
+              Have a question, want to partner with us, or ready to support our
+              work? We'd love to hear from you — reach out using the details
+              below or send us a message.
             </p>
             <div class="contact-page__contact-info">
               <ul class="contact-page__contact-list list-unstyled">

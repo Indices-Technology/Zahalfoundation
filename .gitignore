@@ -91,3 +91,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Source documents (incorporation PDF, originals) — not for the public repo
+docs/

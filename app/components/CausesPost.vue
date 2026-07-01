@@ -22,25 +22,18 @@
     <div class="causes-details__text-box">
       <h3>Raise Fund for Clean & Healthy Water</h3>
       <p class="causes-details__text-1">
-        There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration in some form, by injected humour, or
-        randomised words which don't look even slightly believable. If you are
-        going to use a passage of Lorem Ipsum, you need to be sure there isn't
-        anything embarrassing hidden in the middle of text.
+        Access to clean, safe water is one of the most urgent needs in the
+        communities we serve. Too many families still rely on distant, unsafe
+        sources — leading to preventable illness and keeping children out of
+        school. This campaign funds boreholes and protected water points that
+        change that.
       </p>
       <p class="causes-details__text-2">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like. Lorem Ipsum is simply dummy text
-        of the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s, when an unknown
-        printer took a galley of type and scrambled it to make a type specimen
-        book.
+        Every donation goes directly toward drilling, equipment and training
+        local caretakers so each water point keeps serving its community for
+        years to come. With your help we can reach more families, reduce
+        waterborne disease and give children back the time and health they need
+        to thrive. Together, we turn generosity into lasting impact.
       </p>
     </div>
     <div class="causes-details__images-box">
@@ -66,11 +59,9 @@
     <div class="causes-details__summary">
       <div class="causes-details__summary-text">
         <p>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don't look even slightly believable.
-          If you are going to use a passage of Lorem Ipsum, you need to be sure
-          there isn't anything embarrassing.
+          Clean water is the foundation of health, education and opportunity.
+          By supporting this cause you help entire communities build a
+          healthier, more hopeful future.
         </p>
       </div>
       <div class="causes-details__summary-list">
@@ -80,7 +71,7 @@
               <i class="fas fa-arrow-circle-right"></i>
             </div>
             <div class="text">
-              <p>Making this first true generator</p>
+              <p>Boreholes and protected water points</p>
             </div>
           </li>
           <li>
@@ -88,7 +79,7 @@
               <i class="fas fa-arrow-circle-right"></i>
             </div>
             <div class="text">
-              <p>Many desktop publish packages</p>
+              <p>Safe, healthy drinking water for families</p>
             </div>
           </li>
           <li>
@@ -96,7 +87,7 @@
               <i class="fas fa-arrow-circle-right"></i>
             </div>
             <div class="text">
-              <p>Lorem Ipsum is not simply</p>
+              <p>Fewer waterborne illnesses</p>
             </div>
           </li>
           <li>
@@ -104,7 +95,7 @@
               <i class="fas fa-arrow-circle-right"></i>
             </div>
             <div class="text">
-              <p>If you are going to passage</p>
+              <p>Maintained by the local community</p>
             </div>
           </li>
           <li>
@@ -112,7 +103,7 @@
               <i class="fas fa-arrow-circle-right"></i>
             </div>
             <div class="text">
-              <p>It has roots in a piece</p>
+              <p>Lasting impact for years to come</p>
             </div>
           </li>
         </ul>

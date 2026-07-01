@@ -14,6 +14,7 @@ export interface NavItem {
 export default defineAppConfig({
   site: {
     name: site.name,
+    fullName: site.fullName,
     tagline: site.tagline,
     description: site.description,
   },
@@ -21,6 +22,8 @@ export default defineAppConfig({
   logo: site.logo,
 
   contact: site.contact,
+
+  legal: site.legal,
 
   social: site.social as { icon: string; url: string }[],
 

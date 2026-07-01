@@ -16,10 +16,10 @@
               We’re Helping Today. Helping Tommorow
             </h3>
             <p class="helping-one__text">
-              There are many variations of passages of available but the
-              majority have suffered alteration in some form, by injected humou
-              or randomised words even slightly believable. All the Lorem Ipsum
-              generators on the Internet tend.
+              Your donation goes directly to work that changes lives — clean
+              water, education, healthcare and livelihoods for communities that
+              need it most. Every contribution, big or small, makes a real
+              difference.
             </p>
             <ul class="helping-one__left-list list-unstyled">
               <li>
@@ -27,7 +27,7 @@
                   <i class="fas fa-arrow-circle-right"></i>
                 </div>
                 <div class="helping-one__left-text">
-                  <p>Making this the first true generator on the Internet</p>
+                  <p>100% of your gift funds our community programmes</p>
                 </div>
               </li>
               <li>
@@ -35,7 +35,7 @@
                   <i class="fas fa-arrow-circle-right"></i>
                 </div>
                 <div class="helping-one__left-text">
-                  <p>Lorem Ipsum is not simply random text</p>
+                  <p>Registered, transparent and accountable</p>
                 </div>
               </li>
               <li>
@@ -43,7 +43,7 @@
                   <i class="fas fa-arrow-circle-right"></i>
                 </div>
                 <div class="helping-one__left-text">
-                  <p>If you are going to use a passage</p>
+                  <p>Support health, education, water and livelihoods</p>
                 </div>
               </li>
             </ul>

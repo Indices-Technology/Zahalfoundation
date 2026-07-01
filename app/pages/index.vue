@@ -3,6 +3,7 @@
     <SiteHeader />
     <MainSliderOne />
     <AboutTwo />
+    <ObjectivesSection />
     <CausesCarousel />
     <CallToActionTwo className="" />
     <ThreeBoxes />

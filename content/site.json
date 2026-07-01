@@ -1,22 +1,26 @@
 {
   "name": "Zahal Foundation",
-  "tagline": "Helping Them Today",
-  "description": "Zahal Foundation — supporting those in need.",
+  "fullName": "Zahal Empowerment and Community Development Foundation",
+  "tagline": "Empowering Communities",
+  "description": "Zahal Empowerment and Community Development Foundation — a Nigerian not-for-profit improving health, education, livelihood and environmental sustainability.",
   "logo": {
     "light": "/images/zahal_logo_white.jpg",
     "dark": "/images/zahal_logo_white.jpg",
     "lightColored": "/images/zahal_logo_white.jpg"
   },
   "contact": {
-    "email": "needhelp@zahalfoundation.org",
-    "phone": "92 666 888 0000",
-    "address": "88 Broklyn Golden Street, USA",
-    "welcomeText": "Welcome to the Zahal Foundation"
+    "email": "barkindosaadatu@gmail.com",
+    "phone": "+234 803 909 2325",
+    "address": "No. 35, Alkasum Street, Yola Town, Yola, Adamawa State, Nigeria",
+    "welcomeText": "Welcome to Zahal Foundation"
+  },
+  "legal": {
+    "regNumber": "8958360",
+    "tin": "1092833183"
   },
   "social": [
     { "icon": "fab fa-twitter", "url": "#" },
     { "icon": "fab fa-facebook-square", "url": "#" },
-    { "icon": "fab fa-dribbble", "url": "#" },
     { "icon": "fab fa-instagram", "url": "#" }
   ]
 }

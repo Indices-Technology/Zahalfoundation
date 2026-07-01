@@ -17,11 +17,10 @@
             </div>
             <h3 class="become-volunteer-page__title">Requirements</h3>
             <p class="become-volunteer-page__text">
-              Aliquam hendrerit a augue insu image pellentes que id erat quis
-              sollicitud null mattis Ipsum is simply dummy typesetting industry.
-              Alienum phaedrum torquatos nec eu, vis detraxit periculis ex,
-              nihil expetendis in meifn pericula euripidis, hinc partem ei est.
-              Eos ei nisl graecis, aperiri consequat anlorem tincidun.
+              Give your time, skills and passion to make a real difference.
+              Volunteers are at the heart of everything we do — from clean-water
+              projects and school drives to medical outreaches and advocacy.
+              Fill in the form and our team will be in touch.
             </p>
             <ul class="become-volunteer-page__list list-unstyled">
               <li>
@@ -29,7 +28,7 @@
                   <i class="fas fa-arrow-circle-right"></i>
                 </div>
                 <div class="text">
-                  <p>Making this first true generator simply text</p>
+                  <p>Be 18 years or older</p>
                 </div>
               </li>
               <li>
@@ -37,7 +36,7 @@
                   <i class="fas fa-arrow-circle-right"></i>
                 </div>
                 <div class="text">
-                  <p>Many desktop publish packages nothing</p>
+                  <p>A passion for community development</p>
                 </div>
               </li>
               <li>
@@ -45,7 +44,7 @@
                   <i class="fas fa-arrow-circle-right"></i>
                 </div>
                 <div class="text">
-                  <p>Lorem Ipsum is not simply free text</p>
+                  <p>Reliable and willing to learn</p>
                 </div>
               </li>
               <li>
@@ -53,7 +52,7 @@
                   <i class="fas fa-arrow-circle-right"></i>
                 </div>
                 <div class="text">
-                  <p>If you are going to passage</p>
+                  <p>Able to give a few hours a week</p>
                 </div>
               </li>
               <li>
@@ -61,7 +60,7 @@
                   <i class="fas fa-arrow-circle-right"></i>
                 </div>
                 <div class="text">
-                  <p>It has roots in a piece</p>
+                  <p>Respectful of all communities we serve</p>
                 </div>
               </li>
             </ul>

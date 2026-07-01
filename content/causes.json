@@ -2,49 +2,49 @@
   "items": [
     {
       "thumbnail": "/images/resources/causes-page-img-1.jpg",
-      "title": "Raise Fund for Clean & Healthy Water",
-      "category": "Medical",
-      "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
+      "title": "Clean Water for Rural Communities",
+      "category": "Water",
+      "excerpt": "Fund boreholes and safe water points so families no longer walk miles for clean, healthy water.",
       "amount": { "raised": "21,270", "goal": "30,000" },
       "url": "/causes-details"
     },
     {
       "thumbnail": "/images/resources/causes-page-img-2.jpg",
-      "title": "Our donation is hope for poor childrens",
-      "category": "Medical",
-      "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
+      "title": "Send a Child Back to School",
+      "category": "Education",
+      "excerpt": "Provide books, uniforms and fees so vulnerable children can stay in school and build a future.",
       "amount": { "raised": "15,270", "goal": "30,000" },
       "url": "/causes-details"
     },
     {
       "thumbnail": "/images/resources/causes-page-img-3.jpg",
-      "title": "Education for Poor Children",
-      "category": "Medical",
-      "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
+      "title": "Primary Healthcare Outreach",
+      "category": "Health",
+      "excerpt": "Support free medical outreaches delivering check-ups, medicines and maternal care to remote areas.",
       "amount": { "raised": "11,270", "goal": "30,000" },
       "url": "/causes-details"
     },
     {
       "thumbnail": "/images/resources/causes-page-img-4.jpg",
-      "title": "Promoting The Rights of Children",
-      "category": "Medical",
-      "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
+      "title": "Skills & Livelihood Training",
+      "category": "Livelihood",
+      "excerpt": "Empower youth and women with vocational skills and start-up support to earn a sustainable income.",
       "amount": { "raised": "19,270", "goal": "30,000" },
       "url": "/causes-details"
     },
     {
       "thumbnail": "/images/resources/causes-page-img-5.jpg",
-      "title": "Fundrising for Early Childhood Rise",
-      "category": "Medical",
-      "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
+      "title": "Protecting Vulnerable Families",
+      "category": "Human Rights",
+      "excerpt": "Advance human-rights awareness and protection for displaced and vulnerable populations.",
       "amount": { "raised": "22,270", "goal": "30,000" },
       "url": "/causes-details"
     },
     {
       "thumbnail": "/images/resources/causes-page-img-6.jpg",
-      "title": "School Counseling for Children",
-      "category": "Medical",
-      "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
+      "title": "Greener Communities Initiative",
+      "category": "Environment",
+      "excerpt": "Tree-planting and clean-up drives that protect the environment and build climate resilience.",
       "amount": { "raised": "23,270", "goal": "30,000" },
       "url": "/causes-details"
     }
