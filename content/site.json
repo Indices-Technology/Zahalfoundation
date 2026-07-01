@@ -9,10 +9,10 @@
     "lightColored": "/images/zahal_logo_white.jpg"
   },
   "contact": {
-    "email": "barkindosaadatu@gmail.com",
-    "phone": "+234 803 909 2325",
-    "address": "No. 35, Alkasum Street, Yola Town, Yola, Adamawa State, Nigeria",
-    "welcomeText": "Welcome to Zahal Foundation"
+    "email": "needhelp@zahalfoundation.org",
+    "phone": "+2349038998015  |   +2348125608810",
+    "address": "35 Alkasum street, Yola town, Yola, Adamawa State Nigeria",
+    "welcomeText": "Welcome to the Zahal Foundation"
   },
   "legal": {
     "regNumber": "8958360",
@@ -21,6 +21,7 @@
   "social": [
     { "icon": "fab fa-twitter", "url": "#" },
     { "icon": "fab fa-facebook-square", "url": "#" },
+    { "icon": "fab fa-dribbble", "url": "#" },
     { "icon": "fab fa-instagram", "url": "#" }
   ]
 }
