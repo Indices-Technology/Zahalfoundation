@@ -3,21 +3,21 @@
     {
       "image": "/images/backgrounds/main-slider-1-1.jpg",
       "subtitle": "Helping Them Today",
-      "title": "Help the Poor <br> in Need",
+      "title": "Improve Health, Education <br> and Livelihood",
       "buttonLabel": "Learn More",
       "buttonUrl": "/about"
     },
     {
       "image": "/images/backgrounds/main-slider-2-1.jpg",
       "subtitle": "Helping Them Today",
-      "title": "Help the Poor <br> in Need",
+      "title": "Promote Enviromental <br> Sustainability",
       "buttonLabel": "Learn More",
       "buttonUrl": "/about"
     },
     {
       "image": "/images/backgrounds/main-slider-3-1.jpg",
       "subtitle": "Helping Them Today",
-      "title": "Help the Poor <br> in Need",
+      "title": "Support and Fund Community <br> initiatives that address local challenges",
       "buttonLabel": "Learn More",
       "buttonUrl": "/about"
     }
@@ -27,10 +27,34 @@
     "title": "Where your donation goes",
     "text": "Every contribution is allocated transparently across our core programs.",
     "segments": [
-      { "label": "Medical Aid", "value": 40, "color": "#15c8a0", "icon": "icon-health-check", "description": "Treatment, supplies and care for those in need." },
-      { "label": "Education", "value": 25, "color": "#1f8f76", "icon": "icon-college-graduation", "description": "Schools, materials and scholarships for children." },
-      { "label": "Clean Water", "value": 20, "color": "#ebad35", "icon": "icon-water", "description": "Wells, filters and safe drinking water projects." },
-      { "label": "Food & Relief", "value": 15, "color": "#ce5140", "icon": "icon-fast-food", "description": "Meals and emergency relief for families." }
+      {
+        "label": "Medical Aid",
+        "value": 40,
+        "color": "#15c8a0",
+        "icon": "icon-health-check",
+        "description": "Treatment, supplies and care for those in need."
+      },
+      {
+        "label": "Education",
+        "value": 25,
+        "color": "#1f8f76",
+        "icon": "icon-college-graduation",
+        "description": "Schools, materials and scholarships for children."
+      },
+      {
+        "label": "Clean Water",
+        "value": 20,
+        "color": "#ebad35",
+        "icon": "icon-water",
+        "description": "Wells, filters and safe drinking water projects."
+      },
+      {
+        "label": "Food & Relief",
+        "value": 15,
+        "color": "#ce5140",
+        "icon": "icon-fast-food",
+        "description": "Meals and emergency relief for families."
+      }
     ]
   },
   "video": {
