@@ -9,14 +9,26 @@
   },
   "contact": {
     "email": "needhelp@zahalfoundation.org",
-    "phone": "92 666 888 0000",
-    "address": "88 Broklyn Golden Street, USA",
+    "phone": "+2349038998015  |   +2348125608810",
+    "address": "35 Alkasum street, Yola town, Yola, Adamawa State Nigeria",
     "welcomeText": "Welcome to the Zahal Foundation"
   },
   "social": [
-    { "icon": "fab fa-twitter", "url": "#" },
-    { "icon": "fab fa-facebook-square", "url": "#" },
-    { "icon": "fab fa-dribbble", "url": "#" },
-    { "icon": "fab fa-instagram", "url": "#" }
+    {
+      "icon": "fab fa-twitter",
+      "url": "#"
+    },
+    {
+      "icon": "fab fa-facebook-square",
+      "url": "#"
+    },
+    {
+      "icon": "fab fa-dribbble",
+      "url": "#"
+    },
+    {
+      "icon": "fab fa-instagram",
+      "url": "#"
+    }
   ]
 }
