@@ -4,8 +4,11 @@
       "thumbnail": "/images/resources/causes-page-img-1.jpg",
       "title": "Raise Fund for Clean & Healthy Water",
       "category": "Medical",
-      "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
-      "amount": { "raised": "21,270", "goal": "30,000" },
+      "excerpt": "Contaminated water is a silent killer, responsible for over 1.4 million deaths annually, including thousands of children under five who die every single day from preventable waterborne diseases like cholera and dysentery.  In many communities in Yola, women and children walk miles just to fetch dirty water, sacrificing education, safety, and hope. \n\nOur Mission We are launching an urgent medical and humanitarian initiative to provide clean, safe, and sustainable water solutions to underserved communities.  Your donation will fund the construction of wells, water filtration systems, and sanitation facilities, while also supporting hygiene education programs that prevent disease and save lives.",
+      "amount": {
+        "raised": "21,270",
+        "goal": "30,000"
+      },
       "url": "/causes-details"
     },
     {
@@ -13,7 +16,10 @@
       "title": "Our donation is hope for poor childrens",
       "category": "Medical",
       "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
-      "amount": { "raised": "15,270", "goal": "30,000" },
+      "amount": {
+        "raised": "15,270",
+        "goal": "30,000"
+      },
       "url": "/causes-details"
     },
     {
@@ -21,7 +27,10 @@
       "title": "Education for Poor Children",
       "category": "Medical",
       "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
-      "amount": { "raised": "11,270", "goal": "30,000" },
+      "amount": {
+        "raised": "11,270",
+        "goal": "30,000"
+      },
       "url": "/causes-details"
     },
     {
@@ -29,7 +38,10 @@
       "title": "Promoting The Rights of Children",
       "category": "Medical",
       "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
-      "amount": { "raised": "19,270", "goal": "30,000" },
+      "amount": {
+        "raised": "19,270",
+        "goal": "30,000"
+      },
       "url": "/causes-details"
     },
     {
@@ -37,7 +49,10 @@
       "title": "Fundrising for Early Childhood Rise",
       "category": "Medical",
       "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
-      "amount": { "raised": "22,270", "goal": "30,000" },
+      "amount": {
+        "raised": "22,270",
+        "goal": "30,000"
+      },
       "url": "/causes-details"
     },
     {
@@ -45,7 +60,10 @@
       "title": "School Counseling for Children",
       "category": "Medical",
       "excerpt": "There are not many of passages of lorem ipsum avail isn alteration donationa in form simply free.",
-      "amount": { "raised": "23,270", "goal": "30,000" },
+      "amount": {
+        "raised": "23,270",
+        "goal": "30,000"
+      },
       "url": "/causes-details"
     }
   ]
