@@ -16,19 +16,6 @@
             <div class="leadership__content">
               <h3 class="leadership__name">{{ member.name || member.role }}</h3>
               <span v-if="member.name" class="leadership__role">{{ member.role }}</span>
-              <ul
-                v-if="member.phone || member.email"
-                class="leadership__contact list-unstyled"
-              >
-                <li v-if="member.phone">
-                  <i class="fa fa-phone-alt"></i>
-                  <a :href="`tel:${member.phone}`">{{ member.phone }}</a>
-                </li>
-                <li v-if="member.email">
-                  <i class="fa fa-envelope"></i>
-                  <a :href="`mailto:${member.email}`">{{ member.email }}</a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
@@ -71,18 +58,5 @@ const leadership = about.leadership
 .leadership__role {
   color: var(--thm-primary);
   font-weight: 700;
-}
-.leadership__contact {
-  margin: 18px 0 0;
-}
-.leadership__contact li {
-  margin-bottom: 6px;
-}
-.leadership__contact i {
-  color: var(--thm-primary);
-  margin-right: 8px;
-}
-.leadership__contact a {
-  color: var(--thm-gray);
 }
 </style>

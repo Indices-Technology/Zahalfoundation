@@ -44,29 +44,21 @@
       {
         "name": "Saadatu Sanusi",
         "role": "Chairman / CEO",
-        "phone": "+234 803 909 2325",
-        "email": "barkindosaadatu@gmail.com",
         "photo": "/images/team/ceo-saadatu-lamido.jpg"
       },
       {
         "name": "Saadatu Njiddah",
         "role": "Secretary / Trustee",
-        "phone": "+234 903 899 8015",
-        "email": "sadatusaad94@gmail.com",
         "photo": "/images/team/saadatu-saad.jpg"
       },
       {
         "name": "",
         "role": "Communications Officer",
-        "phone": "",
-        "email": "",
         "photo": "/images/team/communications-officer.jpg"
       },
       {
         "name": "",
         "role": "External Relations Officer",
-        "phone": "",
-        "email": "",
         "photo": "/images/team/external-relations-officer.jpg"
       }
     ]

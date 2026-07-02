@@ -195,3 +195,27 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+/*--------------------------------------------------------------
+# Clamp card text
+# Long titles/excerpts are truncated with an ellipsis so cards keep
+# equal height and stay aligned. Full text still shows on detail pages.
+--------------------------------------------------------------*/
+.causes-one__title,
+.news-two__single h3,
+.news-one__right-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.causes-one__text,
+.news-two__text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

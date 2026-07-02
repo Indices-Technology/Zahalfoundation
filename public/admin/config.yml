@@ -140,8 +140,6 @@ collections:
                   - { name: photo, label: Photo, widget: image }
                   - { name: name, label: Name, widget: string }
                   - { name: role, label: Role, widget: string }
-                  - { name: phone, label: Phone, widget: string }
-                  - { name: email, label: Email, widget: string }
 
   # --- Causes ---------------------------------------------------------------
   - name: causes

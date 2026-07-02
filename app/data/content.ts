@@ -146,8 +146,6 @@ export interface Objective {
 export interface Leader {
   name: string
   role: string
-  phone: string
-  email: string
   photo: string
 }
 
