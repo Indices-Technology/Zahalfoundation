@@ -40,7 +40,6 @@
         </SwiperSlide>
       </Swiper>
     </ClientOnly>
-    <MainSliderCounter />
     <!-- If we need navigation buttons -->
     <div class="swiper-pagination" id="main-slider-pagination"></div>
     <div class="main-slider__nav">

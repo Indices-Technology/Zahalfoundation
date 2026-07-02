@@ -7,9 +7,7 @@
 import homeData from "~~/content/home.json"
 import aboutData from "~~/content/about.json"
 import causesData from "~~/content/causes.json"
-import eventsData from "~~/content/events.json"
 import newsData from "~~/content/news.json"
-import volunteersData from "~~/content/volunteers.json"
 import galleryData from "~~/content/gallery.json"
 import testimonialsData from "~~/content/testimonials.json"
 
@@ -166,9 +164,7 @@ export const budget: Budget = homeData.budget as Budget
 export const homeVideo: VideoBlock = homeData.video as VideoBlock
 export const about: AboutContent = aboutData as AboutContent
 export const causes: CauseItem[] = causesData.items
-export const events: EventItem[] = eventsData.items
 export const news: NewsItem[] = newsData.items
-export const volunteers: Volunteer[] = volunteersData.items
 export const gallery: GalleryItem[] = galleryData.items
 export const testimonials: Testimonial[] = testimonialsData.items
 
@@ -240,7 +236,7 @@ export const blogHome: BlogHome = {
 
 const content = {
   sliderOne, sliderTwo, sliderThree, sliderOneCounter, callToAction,
-  news, events, causes, volunteers, gallery, galleryTwo, sponsors,
+  news, causes, gallery, galleryTwo, sponsors,
   testimonials, features, featuresTwo, videoFeatures, blogHome,
 }
 

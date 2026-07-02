@@ -28,19 +28,16 @@
               >
                 <h3 class="footer-widget__title">Explore</h3>
                 <ul class="footer-widget__explore-list list-unstyled">
-                  <li><a href="#">Donate</a></li>
-                  <li><a href="#">Campaigns</a></li>
-                  <li><a href="#">Fundraise</a></li>
-                  <li><a href="#">Volunteers</a></li>
-                  <li><a href="#">Sponsors</a></li>
+                  <li><nuxt-link to="/">Home</nuxt-link></li>
+                  <li><nuxt-link to="/about">About</nuxt-link></li>
+                  <li><nuxt-link to="/causes">Causes</nuxt-link></li>
                 </ul>
                 <ul
                   class="footer-widget__explore-list footer-widget__explore-list-two list-unstyled"
                 >
-                  <li><a href="#">Fundraising</a></li>
-                  <li><a href="#">Contact</a></li>
-                  <li><a href="#">Help</a></li>
-                  <li><a href="#">Faqs</a></li>
+                  <li><nuxt-link to="/gallery">Gallery</nuxt-link></li>
+                  <li><nuxt-link to="/news">News</nuxt-link></li>
+                  <li><nuxt-link to="/contact">Contact</nuxt-link></li>
                 </ul>
               </div>
             </div>

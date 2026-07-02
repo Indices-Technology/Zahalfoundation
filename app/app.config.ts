@@ -29,40 +29,10 @@ export default defineAppConfig({
 
   navMenus: [
     { name: "Home", url: "/" },
-    {
-      name: "Pages",
-      url: "/about",
-      subItems: [
-        { name: "About", url: "/about" },
-        { name: "Volunteers", url: "/volunteers" },
-        { name: "Gallery", url: "/gallery" },
-        { name: "Become a Volunteer", url: "/become-volunteer" },
-      ],
-    },
-    {
-      name: "Donations",
-      url: "/causes",
-      subItems: [
-        { name: "Causes", url: "/causes" },
-        { name: "Causes Details", url: "/causes-details" },
-      ],
-    },
-    {
-      name: "Events",
-      url: "/events",
-      subItems: [
-        { name: "Events", url: "/events" },
-        { name: "Events Details", url: "/events-details" },
-      ],
-    },
-    {
-      name: "News",
-      url: "/news",
-      subItems: [
-        { name: "News", url: "/news" },
-        { name: "News Details", url: "/news-details" },
-      ],
-    },
+    { name: "About", url: "/about" },
+    { name: "Causes", url: "/causes" },
+    { name: "Gallery", url: "/gallery" },
+    { name: "News", url: "/news" },
     { name: "Contact", url: "/contact" },
   ] as NavItem[],
 })

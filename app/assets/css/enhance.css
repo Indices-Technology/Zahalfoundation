@@ -1,0 +1,138 @@
+/*--------------------------------------------------------------
+# Cohesion & mobile enhancements
+# Layout, spacing and typography only — no colour / brand changes.
+# Loaded last so it refines the template without altering its look.
+--------------------------------------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevent horizontal overflow on small screens */
+body {
+  overflow-x: hidden;
+}
+
+/* --- Consistent vertical rhythm for custom sections --- */
+.about-intro,
+.objectives,
+.leadership,
+.home-video {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* ============================================================
+   Tablet (<= 991px)
+   ============================================================ */
+@media (max-width: 991px) {
+  .section-title__title {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+
+  /* Tighten the big template section paddings on tablet */
+  .about-page,
+  .about-intro,
+  .objectives,
+  .leadership,
+  .home-video,
+  .budget-one,
+  .welcome-one,
+  .causes-one,
+  .causes-two,
+  .news-one,
+  .news-two,
+  .testimonial-one,
+  .counters-one,
+  .helping-one,
+  .contact-page,
+  .gallery-one,
+  .page-header {
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+  }
+
+  .budget-one__chart {
+    max-width: 320px;
+    margin: 0 auto 40px;
+  }
+}
+
+/* ============================================================
+   Mobile (<= 767px)
+   ============================================================ */
+@media (max-width: 767px) {
+  .container,
+  .container-box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section-title__title {
+    font-size: 26px;
+  }
+
+  /* Hero */
+  .main-slider {
+    min-height: 520px;
+  }
+  .main-slider__content h2 {
+    font-size: 40px;
+    line-height: 1.08;
+  }
+  .main-slider__content p {
+    font-size: 16px;
+  }
+  .main-slider .thm-btn {
+    padding: 12px 34px;
+  }
+
+  /* Custom sections a touch tighter */
+  .about-intro,
+  .objectives,
+  .leadership,
+  .home-video,
+  .budget-one {
+    padding-top: 56px !important;
+    padding-bottom: 56px !important;
+  }
+
+  .about-intro__reg {
+    flex-direction: column;
+  }
+
+  /* Footer stacks cleanly */
+  .site-footer__bottom-inner {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .site-footer__bottom-logo-social {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+/* ============================================================
+   Small mobile (<= 575px)
+   ============================================================ */
+@media (max-width: 575px) {
+  .main-slider__content h2 {
+    font-size: 32px;
+  }
+  .section-title__title {
+    font-size: 24px;
+  }
+  .leadership__img img {
+    height: 260px;
+  }
+  .budget-one__chart-center span {
+    font-size: 34px;
+  }
+}

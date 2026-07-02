@@ -168,25 +168,6 @@ collections:
                   - { name: goal, label: Goal, widget: string }
               - { name: url, label: Link, widget: string, default: /causes-details }
 
-  # --- Events ---------------------------------------------------------------
-  - name: events
-    label: Events
-    files:
-      - name: events
-        label: Events list
-        file: content/events.json
-        fields:
-          - name: items
-            label: Events
-            widget: list
-            summary: "{{fields.title}}"
-            fields:
-              - { name: thumbnail, label: Image, widget: image }
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: time, label: Time, widget: string }
-              - { name: date, label: Date (HTML allowed), widget: string }
-              - { name: url, label: Link, widget: string, default: /events-details }
-
   # --- News -----------------------------------------------------------------
   - name: news
     label: News
@@ -207,30 +188,6 @@ collections:
               - { name: commentCount, label: Comment count, widget: string, default: "0" }
               - { name: excerpt, label: Excerpt, widget: text }
               - { name: url, label: Link, widget: string, default: /news-details }
-
-  # --- Volunteers -----------------------------------------------------------
-  - name: volunteers
-    label: Volunteers
-    files:
-      - name: volunteers
-        label: Volunteers list
-        file: content/volunteers.json
-        fields:
-          - name: items
-            label: Volunteers
-            widget: list
-            summary: "{{fields.title}}"
-            fields:
-              - { name: thumbnail, label: Photo, widget: image }
-              - { name: title, label: Name, widget: string }
-              - { name: designation, label: Role, widget: string, default: Volunteer }
-              - { name: excerpt, label: Short bio, widget: text }
-              - name: social
-                label: Social links
-                widget: list
-                fields:
-                  - { name: icon, label: Icon class, widget: string }
-                  - { name: url, label: URL, widget: string }
 
   # --- Gallery --------------------------------------------------------------
   - name: gallery

@@ -53,5 +53,6 @@ export default defineNuxtConfig({
     "~/assets/css/theme.css",
     "~/assets/css/zahal.css",
     "~/assets/css/zahal-responsive.css",
+    "~/assets/css/enhance.css",
   ],
 })

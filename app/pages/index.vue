@@ -4,17 +4,14 @@
     <MainSliderOne />
     <AboutTwo />
     <ObjectivesSection />
+    <BudgetChart />
     <CausesCarousel />
     <CallToActionTwo className="" />
-    <ThreeBoxes />
-    <BudgetChart />
     <HomeVideo />
-    <ContactHome />
     <GalleryCarousel />
     <TestimonialsCarouselOne className="" />
-    <VideoOne />
     <NewsHome />
-    <SponsorsOne />
+    <ContactHome />
     <Footer />
     <SearchPopup />
     <MobileDrawer />

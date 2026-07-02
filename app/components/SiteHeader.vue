@@ -52,12 +52,6 @@
               <div class="main-menu__right-social">
                 <a v-for="s in social" :key="s.icon" :href="s.url"><i :class="s.icon"></i></a>
               </div>
-              <a
-                href="#"
-                class="main-menu__search search-toggler icon-magnifying-glass"
-                @click.prevent="searchPopupStatusChange"
-              ></a>
-              <a href="#" class="main-menu__cart icon-shopping-cart"></a>
             </div>
           </div>
         </nav>
@@ -117,12 +111,6 @@
             <div class="main-menu__right-social">
               <a v-for="s in social" :key="s.icon" :href="s.url"><i :class="s.icon"></i></a>
             </div>
-            <a
-              href="#"
-              class="main-menu__search search-toggler icon-magnifying-glass"
-              @click.prevent="searchPopupStatusChange"
-            ></a>
-            <a href="#" class="main-menu__cart icon-shopping-cart"></a>
           </div>
         </div>
       </div>
