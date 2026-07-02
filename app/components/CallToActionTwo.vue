@@ -19,12 +19,12 @@
         <div class="col-xl-12">
           <div class="join-one__inner">
             <h2 class="join-one__title">
-              Join the community to give <br />
-              education for children
+              Join us in empowering <br />
+              communities across Nigeria
             </h2>
-            <nuxt-link to="/become-volunteer" class="join-one__btn thm-btn">
+            <nuxt-link to="/contact" class="join-one__btn thm-btn">
               <i class="fas fa-arrow-circle-right"></i>
-              Learn More
+              Get in Touch
             </nuxt-link>
           </div>
         </div>

@@ -55,4 +55,18 @@ export default defineNuxtConfig({
     "~/assets/css/zahal-responsive.css",
     "~/assets/css/enhance.css",
   ],
+
+  // Pre-bundle these so the dev server doesn't reload when it discovers them at runtime.
+  vite: {
+    optimizeDeps: {
+      include: [
+        "@vueuse/core",
+        "jarallax",
+        "plyr",
+        "swiper/vue",
+        "swiper/modules",
+        "vue-ellipse-progress",
+      ],
+    },
+  },
 })
