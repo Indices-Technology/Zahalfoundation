@@ -53,7 +53,26 @@
       "Bash(powershell -Command 'Get-NetTCPConnection -LocalPort 3094 -State Listen -ErrorAction SilentlyContinue | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force }')",
       "Bash(git -c core.safecrlf=false commit -q -m 'Fix CMS OAuth callback: match Sveltia postMessage handshake *)",
       "Bash(node -e 'const y=require\\(\"yaml\"\\);const d=y.parse\\(require\\(\"fs\"\\).readFileSync\\(\"public/admin/config.yml\",\"utf8\"\\)\\);console.log\\(\"YAML OK. local_backend present?\", \"local_backend\" in d, \"| collections:\", d.collections.length\\)')",
-      "Bash(git -c core.safecrlf=false commit -q -m \"CMS: remove Decap-only local_backend \\(unsupported by Sveltia, was logging a warning\\)\")"
+      "Bash(git -c core.safecrlf=false commit -q -m \"CMS: remove Decap-only local_backend \\(unsupported by Sveltia, was logging a warning\\)\")",
+      "Bash(cp \"docs/CEO SAADATULAMIDO.jpg\" public/images/team/ceo-saadatu-lamido.jpg)",
+      "Bash(cp \"docs/SAADATU SAAD.jpg\" public/images/team/saadatu-saad.jpg)",
+      "Bash(cp \"docs/SECRETARY.jpg\" public/images/team/secretary.jpg)",
+      "Bash(cp \"docs/COMMUNICATIONS OFFICER.jpg\" public/images/team/communications-officer.jpg)",
+      "Bash(cp \"docs/EXTERNAL RELATIONS OFFICER.jpg\" public/images/team/external-relations-officer.jpg)",
+      "Bash(node -e 'const y=require\\(\"yaml\"\\);const d=y.parse\\(require\\(\"fs\"\\).readFileSync\\(\"public/admin/config.yml\",\"utf8\"\\)\\);console.log\\(\"YAML OK. collections:\", d.collections.map\\(c=>c.name\\).join\\(\", \"\\)\\)')",
+      "Bash(git check-ignore *)",
+      "Bash(git reset *)",
+      "Bash(git -c core.safecrlf=false commit -q -m 'Add real Zahal content: About, objectives, leadership + remove lorem *)",
+      "Bash(grep -rlE *)",
+      "Bash(node -e 'for\\(const f of [\"content/site.json\",\"content/causes.json\",\"content/home.json\",\"content/about.json\",\"content/news.json\",\"content/testimonials.json\",\"content/volunteers.json\",\"content/gallery.json\",\"content/events.json\"]\\){JSON.parse\\(require\\(\"fs\"\\).readFileSync\\(f\\)\\);console.log\\(\"ok\",f\\)}')",
+      "Bash(git -c core.safecrlf=false commit --no-edit)",
+      "Bash(node -e 'const y=require\\(\"yaml\"\\);const d=y.parse\\(require\\(\"fs\"\\).readFileSync\\(\"public/admin/config.yml\",\"utf8\"\\)\\);console.log\\(\"collections:\", d.collections.map\\(c=>c.name\\).join\\(\", \"\\)\\)')",
+      "Bash(grep -oE \".{0,15}\\(Campaigns|Fundraise|Sponsors\\).{0,15}\" /tmp/hp2.html)",
+      "Bash(git -c core.safecrlf=false commit -q -m 'Redesign pass: cohesion, mobile, leaner IA \\(keep colours/look\\) *)",
+      "Bash(git -c core.safecrlf=false commit -q -m 'Fix dead CTA link + consistent image sizing + dev dep pre-bundle *)",
+      "Bash(node -e 'const y=require\\(\"yaml\"\\);y.parse\\(require\\(\"fs\"\\).readFileSync\\(\"public/admin/config.yml\",\"utf8\"\\)\\);console.log\\(\"config.yml OK\"\\)')",
+      "Bash(node -e 'JSON.parse\\(require\\(\"fs\"\\).readFileSync\\(\"content/about.json\"\\)\\);console.log\\(\"about.json OK\"\\)')",
+      "Bash(git -c core.safecrlf=false commit -q -m 'Leadership: show name + role only \\(remove personal phone/email\\); clamp card text *)"
     ]
   }
 }
