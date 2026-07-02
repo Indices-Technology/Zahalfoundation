@@ -4,7 +4,7 @@
     "title": "Empowering communities for a better future",
     "lead": "Zahal Empowerment and Community Development Foundation is a not-for-profit, non-political organisation registered in Nigeria, based in Yola, Adamawa State.",
     "body": "We implement programmes and fund community-led initiatives that improve health, education, livelihood and environmental sustainability — while promoting human rights and building partnerships that make lasting change possible for the people who need it most.",
-    "image": "/images/resources/about-page-img-1.jpg"
+    "image": "/images/uploads/2.jpg"
   },
   "objectives": {
     "subtitle": "Our Aims & Objectives",
@@ -42,24 +42,24 @@
     "title": "Meet the team behind Zahal",
     "members": [
       {
+        "photo": "/images/team/ceo-saadatu-lamido.jpg",
         "name": "Saadatu Sanusi",
-        "role": "Chairman / CEO",
-        "photo": "/images/team/ceo-saadatu-lamido.jpg"
+        "role": "Chairman / CEO"
       },
       {
+        "photo": "/images/team/saadatu-saad.jpg",
         "name": "Saadatu Njiddah",
-        "role": "Secretary / Trustee",
-        "photo": "/images/team/saadatu-saad.jpg"
+        "role": "Secretary / Trustee"
       },
       {
-        "name": "",
-        "role": "Communications Officer",
-        "photo": "/images/team/communications-officer.jpg"
+        "photo": "/images/team/communications-officer.jpg",
+        "name": "Communication",
+        "role": "Communications Officer"
       },
       {
-        "name": "",
-        "role": "External Relations Officer",
-        "photo": "/images/team/external-relations-officer.jpg"
+        "photo": "/images/team/external-relations-officer.jpg",
+        "name": "External",
+        "role": "External Relations Officer"
       }
     ]
   }
