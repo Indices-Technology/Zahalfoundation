@@ -1,7 +1,7 @@
 {
   "hero": [
     {
-      "image": "/images/backgrounds/main-slider-1-1.jpg",
+      "image": "/images/uploads/6.jpg",
       "subtitle": "Helping Them Today",
       "title": "Improve Health, Education <br> Livelihood",
       "buttonLabel": "Learn More",
@@ -61,6 +61,6 @@
     "subtitle": "Watch Our Story",
     "title": "See the impact of your support",
     "url": "https://www.youtube.com/watch?v=i9E_Blai8vk",
-    "poster": "/images/backgrounds/help-them-bg.jpg"
+    "poster": "/images/uploads/6.jpg"
   }
 }
