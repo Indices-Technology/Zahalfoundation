@@ -53,13 +53,23 @@
       },
       {
         "photo": "/images/team/communications-officer.jpg",
-        "name": "Communication",
+        "name": "Adamu Ibrahim",
         "role": "Communications Officer"
       },
       {
         "photo": "/images/team/external-relations-officer.jpg",
-        "name": "External",
+        "name": "Hauwa Aliyu",
         "role": "External Relations Officer"
+      },
+      {
+        "photo": "/images/team/external-relations-officer.jpg",
+        "name": "Hamid Njidda",
+        "role": "CFO/Compliance Officer"
+      },
+      {
+        "photo": "/images/team/external-relations-officer.jpg",
+        "name": "Asmau Barkindo",
+        "role": "Chief Programme Officer"
       }
     ]
   }
