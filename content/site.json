@@ -19,9 +19,7 @@
     "tin": "1092833183"
   },
   "social": [
-    { "icon": "fab fa-twitter", "url": "#" },
-    { "icon": "fab fa-facebook-square", "url": "#" },
-    { "icon": "fab fa-dribbble", "url": "#" },
-    { "icon": "fab fa-instagram", "url": "#" }
+    { "icon": "fab fa-facebook-square", "url": "https://www.facebook.com/share/1BWqmrhk99/?mibextid=wwXIfr" },
+    { "icon": "fab fa-instagram", "url": "https://www.instagram.com/zahalempowerment_foundation" }
   ]
 }

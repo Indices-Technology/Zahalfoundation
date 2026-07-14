@@ -37,9 +37,9 @@
       }
     ]
   },
-  "leadership": {
-    "subtitle": "Our Leadership",
-    "title": "Meet the team behind Zahal",
+  "trustees": {
+    "subtitle": "Board of Trustees",
+    "title": "Our trustees",
     "members": [
       {
         "photo": "/images/team/ceo-saadatu-lamido.jpg",
@@ -48,8 +48,34 @@
       },
       {
         "photo": "/images/team/saadatu-saad.jpg",
-        "name": "Saadatu Njiddah",
+        "name": "Saadatu Saad",
         "role": "Secretary / Trustee"
+      },
+      {
+        "photo": "/images/team/team-page-img-3.jpg",
+        "name": "Asmau Barkindo",
+        "role": "Trustee"
+      }
+    ]
+  },
+  "team": {
+    "subtitle": "Our Team",
+    "title": "The people behind Zahal",
+    "members": [
+      {
+        "photo": "/images/team/ceo-saadatu-lamido.jpg",
+        "name": "Saadatu Sanusi",
+        "role": "Chairman / CEO"
+      },
+      {
+        "photo": "/images/team/saadatu-saad.jpg",
+        "name": "Saadatu Saad",
+        "role": "Secretary / Trustee"
+      },
+      {
+        "photo": "/images/team/team-page-img-3.jpg",
+        "name": "Asmau Barkindo",
+        "role": "Chief Programme Officer"
       },
       {
         "photo": "/images/team/communications-officer.jpg",
@@ -64,12 +90,7 @@
       {
         "photo": "/images/team/external-relations-officer.jpg",
         "name": "Hamid Njidda",
-        "role": "CFO/Compliance Officer"
-      },
-      {
-        "photo": "/images/team/external-relations-officer.jpg",
-        "name": "Asmau Barkindo",
-        "role": "Chief Programme Officer"
+        "role": "CFO / Compliance Officer"
       }
     ]
   }

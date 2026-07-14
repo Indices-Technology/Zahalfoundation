@@ -149,10 +149,17 @@ export interface Leader {
   photo: string
 }
 
+export interface TeamGroup {
+  subtitle: string
+  title: string
+  members: Leader[]
+}
+
 export interface AboutContent {
   who: { subtitle: string; title: string; lead: string; body: string; image: string }
   objectives: { subtitle: string; title: string; items: Objective[] }
-  leadership: { subtitle: string; title: string; members: Leader[] }
+  trustees: TeamGroup
+  team: TeamGroup
 }
 
 // --- CMS-managed (content/*.json) ---------------------------------------------

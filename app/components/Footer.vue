@@ -109,7 +109,7 @@
                     </nuxt-link>
                   </div>
                   <div class="site-footer__bottom-social">
-                    <a v-for="s in social" :key="s.icon" :href="s.url"><i :class="s.icon"></i></a>
+                    <a v-for="s in social" :key="s.icon" :href="s.url" target="_blank" rel="noopener"><i :class="s.icon"></i></a>
                   </div>
                 </div>
                 <div class="site-footer__bottom-copy-right">

@@ -50,7 +50,7 @@
             </div>
             <div class="main-menu__right main-menu__right-three">
               <div class="main-menu__right-social">
-                <a v-for="s in social" :key="s.icon" :href="s.url"><i :class="s.icon"></i></a>
+                <a v-for="s in social" :key="s.icon" :href="s.url" target="_blank" rel="noopener"><i :class="s.icon"></i></a>
               </div>
             </div>
           </div>
@@ -109,7 +109,7 @@
           </div>
           <div class="main-menu__right main-menu__right-three">
             <div class="main-menu__right-social">
-              <a v-for="s in social" :key="s.icon" :href="s.url"><i :class="s.icon"></i></a>
+              <a v-for="s in social" :key="s.icon" :href="s.url" target="_blank" rel="noopener"><i :class="s.icon"></i></a>
             </div>
           </div>
         </div>

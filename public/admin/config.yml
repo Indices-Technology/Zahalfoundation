@@ -126,14 +126,28 @@ collections:
                   - { name: icon, label: Icon class, widget: string }
                   - { name: title, label: Title, widget: string }
                   - { name: text, label: Text, widget: text }
-          - name: leadership
-            label: Leadership
+          - name: trustees
+            label: Board of Trustees
             widget: object
             fields:
               - { name: subtitle, label: Subtitle, widget: string }
               - { name: title, label: Title, widget: string }
               - name: members
-                label: Trustees / Team
+                label: Trustees
+                widget: list
+                summary: "{{fields.name}}"
+                fields:
+                  - { name: photo, label: Photo, widget: image }
+                  - { name: name, label: Name, widget: string }
+                  - { name: role, label: Role, widget: string }
+          - name: team
+            label: Team
+            widget: object
+            fields:
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: title, label: Title, widget: string }
+              - name: members
+                label: Team members
                 widget: list
                 summary: "{{fields.name}}"
                 fields:

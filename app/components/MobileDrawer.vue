@@ -73,7 +73,7 @@
       <!-- /.mobile-nav__contact -->
       <div class="mobile-nav__top">
         <div class="mobile-nav__social">
-          <a v-for="s in social" :key="s.icon" :href="s.url" :class="s.icon"></a>
+          <a v-for="s in social" :key="s.icon" :href="s.url" target="_blank" rel="noopener" :class="s.icon"></a>
         </div>
         <!-- /.mobile-nav__social -->
       </div>
