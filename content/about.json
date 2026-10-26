@@ -73,7 +73,7 @@
         "role": "Secretary / Trustee"
       },
       {
-        "photo": "/images/team/team-page-img-3.jpg",
+        "photo": "/images/uploads/SECRETARY.jpg",
         "name": "Asmau Barkindo",
         "role": "Chief Programme Officer"
       },
@@ -90,16 +90,7 @@
       {
         "photo": "/images/uploads/hamid.jpg",
         "name": "Hamid Njidda",
-<<<<<<< HEAD
         "role": "CFO / Compliance Officer"
-=======
-        "role": "CFO/Compliance Officer"
-      },
-      {
-        "photo": "/images/uploads/SECRETARY.jpg",
-        "name": "Asmau Barkindo",
-        "role": "Chief Programme Officer"
->>>>>>> faf0bea1decba740602487bdcfc8a78d7751f7e5
       }
     ]
   }
